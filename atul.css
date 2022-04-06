@@ -1,0 +1,6429 @@
+.logged-in a#verify_mobile + .tool_result {
+    display: none;
+}
+.role-vendor .msg-sent {
+    display: none !important;
+}
+.search-main label[for="edit-session-type"]::after {
+    content: 'Session Type';
+    display:block !important;
+    font-size: 15px;
+}
+.search-main label[for="edit-session-type"] {
+    font-size: 0;
+}
+.tab-row.or:after {
+    content: 'OR';
+    display: block;
+    background: #f53480;
+    position: absolute;
+    bottom: -15px;
+    font-size: 12px;
+    color: #fff;
+    z-index: 19;
+    padding: 1px 4px;
+    border-radius: 3px;
+}
+.page-node-add-group-session tr.ief-row-entity td:empty {
+    display: none;
+}
+.page-node-add-group-session .ief-form:before{
+    display: none !important;
+}
+.page-node-add-group-session .website-course-price>div.form-type-radios{
+    display:none;
+}
+.page-node-add-group-session td .form-actions button[value="Remove"]{
+    margin-top:2.6rem;
+    height:45px;
+}
+.whatsapp-chat-box {
+    background: #fff;
+    box-shadow: -4px -4px 50px -8px #9f9f9f;
+    position: absolute;
+    bottom: 6rem;
+    right: 1rem;
+    border-radius: 10px;
+    padding: 0 0 1rem 0;
+    overflow: hidden;
+    transition: all 0.3s ease-in;
+    height: 0;
+    width: 0;
+}
+a.trigerer img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.trigerer {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    box-shadow: 0px 5px 20px 0px #bfbfbf;
+    padding: 0.75rem;
+    border-radius: 50%;
+    background: #fff;
+    cursor: pointer;
+}
+div#backtotop {
+    display: none !important;
+}
+
+.whatsapp-chat-box h4 {
+    font-family: 'Montserrat-Bold';
+    background: #36afa2;
+    color: #fff;
+    margin: 0 0 2rem 0;
+    padding: 1.75rem 1rem;
+    text-align: center;
+}
+
+.whatsapp-chat-box p {
+    padding: 0 3rem;
+    font-family: 'Montserrat-Medium';
+    font-size: 16px;
+    color: #3e3d3d;
+    line-height: 1.5;
+}
+
+.whatsapp-chat-box a {
+    display: flex;
+    width: 100%;
+    border-radius: 100px;
+    max-width: 80%;
+    margin: 3rem auto 0;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat-SemiBold';
+    background: #36afa2;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.whatsapp-chat-box span {
+    padding: 0 3rem;
+    font-size: 12px;
+    font-family: 'Montserrat-Medium';
+    display: block;
+    color: #36afa2;
+}
+
+.whatsapp-chat-box.open {
+    width: 35rem;
+    height: 35rem;
+}
+.zoom-pop {
+    position: fixed;
+    background: #fff;
+    z-index: 1999;
+    height: calc(100vh - 10rem);
+    bottom: 2rem;
+    padding: 2rem;
+    box-shadow: 12px 14px 65px 0px #b1b1b1;
+    border-radius: 2rem;
+    left: -100%;
+    max-width: 53rem;
+    width: auto;
+    overflow: hidden;
+    transition: all 0.3s ease-in;
+}
+.zoom-pop.opened{
+    left: 3rem;
+}
+.inner-zoom{
+    height:100%;
+    overflow:auto;
+    padding: 0 1rem;
+}
+.inner-zoom::-webkit-scrollbar {
+  width: 5px;
+}
+.inner-zoom::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px #d6d6d6;
+  border-radius: 10px;
+}
+.inner-zoom::-webkit-scrollbar-thumb {
+  background: #15a398;
+  border-radius: 10px;
+}
+.inner-zoom::-webkit-scrollbar-thumb:hover {
+  background: #312f2f;
+}
+.zoom-pop .btn-close {
+    margin-left: auto;
+    display: block;
+    background: #ededed;
+    color: #000;
+}
+.zoom-pop h4 {
+    font-family: 'Montserrat-Bold';
+    font-size: 2rem;
+    letter-spacing: 0;
+    margin-top: -30px;
+}
+.zoom-pop img {
+    max-height: 25rem;
+    margin: 1rem 0 2rem;
+}
+.zoom-pop .inner-zoom > a {display: inline-block;padding: 1.5rem 2rem;background: #11a398;color: #fff;font-family: 'Montserrat-SemiBold';font-size: 1.75rem;border-radius: 5px;margin-top: 1rem;width: 100%;text-align: center;max-width: 25rem;}
+.zoom-pop strong {
+    color: #000;
+}
+.zoom-pop p {
+    font-size: 18px;
+}
+p.date-error {
+    display: none !important;
+}
+.page-user-me form#user-profile-form #edit-submit{
+    opacity: 1 !important;
+    cursor: pointer !important;
+    pointer-events: all;
+}
+div#counter_number {
+    max-width: 25rem;
+}
+body.page-user #qualifications-edit-new-form .form-control.placeholder {
+    color: #b4b4b4 !important;
+    font-family: 'Montserrat-Regular';
+}
+form#qualifications-edit-new-form .form-type-textfield:before,
+form#qualifications-edit-form--2 .form-type-textfield:before{
+    content: 'University Name*';
+    font-family: 'Montserrat-SemiBold';
+    margin-bottom: 5px;
+    display: block;
+    font-size: 14px;
+}
+form#qualifications-edit-new-form .form-item-university-area-0-subject:before,
+form#qualifications-edit-form--2 .form-item-university-area-1-subject:before,
+form#qualifications-edit-new-form .form-item-university-area-1-subject:before,
+form#qualifications-edit-new-form .form-item-university-area-2-subject:before,
+form#qualifications-edit-form--2 .form-item-university-area-2-subject:before {
+    content: 'Subject Name*';
+}
+form#qualifications-edit-new-form .form-item-college-area-0-college:before,
+form#qualifications-edit-new-form .form-item-college-area-1-college:before,
+form#qualifications-edit-new-form .form-item-college-area-2-college:before,
+form#qualifications-edit-form--2 .form-item-college-area-1-college:before,
+form#qualifications-edit-form--2 .form-item-college-area-2-college:before,
+form#qualifications-edit-form--2 .form-item-college-area-3-college:before {
+    content: 'College Name*';
+}
+form#qualifications-edit-new-form .form-item-college-area-0-subject:before,
+form#qualifications-edit-new-form .form-item-college-area-1-subject:before,
+form#qualifications-edit-new-form .form-item-college-area-2-subject:before,
+form#qualifications-edit-form--2 .form-item-college-area-1-subject:before,
+form#qualifications-edit-form--2 .form-item-college-area-2-subject:before,
+form#qualifications-edit-form--2 .form-item-college-area-3-subject:before {
+    content: 'Subject Name*';
+}
+form#qualifications-edit-new-form .form-item-other-area-0-other:before,
+form#qualifications-edit-new-form .form-item-other-area-1-other:before,
+form#qualifications-edit-new-form .form-item-other-area-2-other:before,
+form#qualifications-edit-form--2 .form-item-other-area-1-other:before,
+form#qualifications-edit-form--2 .form-item-other-area-2-other:before,
+form#qualifications-edit-form--2 .form-item-other-area-3-other:before {
+    content: 'Location*';
+}
+form#qualifications-edit-new-form .form-item-other-area-0-subject:before,
+form#qualifications-edit-new-form .form-item-other-area-1-subject:before,
+form#qualifications-edit-new-form .form-item-other-area-2-subject:before,
+form#qualifications-edit-form--2 .form-item-other-area-1-subject:before,
+form#qualifications-edit-form--2 .form-item-other-area-2-subject:before,
+form#qualifications-edit-form--2 .form-item-other-area-3-subject:before {
+    content: 'Subject Name*';
+}
+form#qualifications-edit-new-form .form-item-other-area-0-level:before ,
+form#qualifications-edit-new-form .form-item-other-area-2-level:before ,
+form#qualifications-edit-new-form .form-item-other-area-3-level:before ,
+form#qualifications-edit-form--2 .form-item-other-area-1-level:before,
+form#qualifications-edit-form--2 .form-item-other-area-2-level:before,
+form#qualifications-edit-form--2 .form-item-other-area-3-level:before {
+    content: 'Grade*';
+}
+.form-item-other-area10-stillstudying{
+    display:flex;
+    align-items:center;
+    margin-top: 3.75rem;
+    margin-bottom: 0 !important;
+}
+.form-item-other-area10-stillstudying label,
+.form-item-college-area-0-stillstudying label,
+.form-item-university-area-0-stillstudying label,
+.form-item-other-area-0-stillstudying label{
+    margin-top: 0 !important;
+}
+.form-item-college-area-0-stillstudying{
+    display:flex;
+    align-items:center;
+}
+.form-item-other-area-0-stillstudying {
+    display: flex;
+    align-items: center;
+    margin-top: 4rem;
+}
+
+form#custom-hot-subscribe button.form-submit {
+    display: block !important;
+    background: #00a89b;
+    padding: 1rem;
+}
+.fqs-r {
+    box-shadow: 0px 0px 10px 0px #d3d3d3;
+    border-radius: 5px;
+    margin-bottom: 1.5rem;
+    transition: all 0.3s ease-in;
+    overflow: hidden;
+}
+
+.fqs-t h5 {
+    font-size: 1.75rem;
+    font-family: 'Montserrat-Regular';
+    letter-spacing: 0;
+    padding: 1.75rem;
+    color: #000;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+}
+
+.fqs-body p {
+    font-size: 1.5rem !important;
+    color: #000;
+    margin: 0;
+}
+
+.fqs-body {height: 0;opacity: 0;visibility: hidden;/* transition: all 0.1s ease-in; */}
+
+.fqs {
+    margin: 4rem 0;
+    max-width: 100rem;
+}
+
+.fqs-t h5:after {content: '\002B';display: inline-block;color: black;font-size: 3rem;position: absolute;right: 2rem;}
+
+.fqs-r.fq-active .fqs-body {height: auto;opacity: 1;visibility: visible;padding: 2rem;}
+
+.fqs-r.fq-active .fqs-t h5:after {content: '\2212';color: #fff;}
+
+.fqs-r.fq-active .fqs-t h5 {
+    background-color: #00a89b !important;
+    color: #fff;
+}
+h3.form-heading.online-tutr p {
+    font-size: 1.25rem;
+    color: #3e3e3e;
+    margin-top: 8px;
+    line-height: 1.4;
+    font-family: 'Montserrat-Medium';
+}
+h3.form-heading.online-tutr p a {
+    color: #19a792;
+}
+a.pointer-none {
+    pointer-events: none;
+}
+.flags-container h3{
+    margin-top: 0;
+    margin-bottom: 4rem;
+    color: #000;
+    letter-spacing:0px;
+}
+div#counter_number h2{
+    display: block !important;
+}
+.ief-form:before {
+    content: 'This course form has some technical errors we’re fixing them. Please don’t delete the below class schedule once it is entered. If you want to make changes you need to click on the “REMOVE” button below to enter the BATCH again. Thank you for your cooperation ';
+    display: block;
+    font-size: 1.5rem;
+    font-family: 'Montserrat-SemiBold';
+    padding: 0 2rem;
+    color: red;
+}
+.validation {
+    color: red;
+    font-family: 'Montserrat-SemiBold';
+    text-transform: capitalize;
+    margin-top: 0.25rem;
+}
+strong {
+    font-weight: normal;
+    font-family: 'Montserrat-SemiBold';
+}
+span.comma-before:before {
+    content: ',';
+    display: inline-block;
+    margin-left: -5px;
+}
+.page-vendor-profile .currencies {
+    margin-top: 15px;
+}
+a.schedule_meeting {
+    position: absolute;
+    top: 5rem;
+    color: #00a89b;
+    font-family: 'Montserrat-Bold';
+    text-decoration: underline !important;
+    text-transform: capitalize;
+    right: 3rem;
+}
+.page-node .calendario-deal .ief-tabs + table > thead:first-child {
+    display: none;
+}
+.fc-limited{
+    display: block !important;
+}
+td.fc-more-cell {
+    display: none !important;
+}
+.page-node-edit form.node-deal-form.calendario-deal .form-type-radio:last-child {
+    display: flex;
+    align-items: center;
+}
+.page-node-edit form.node-deal-form.calendario-deal .form-type-radio:last-child label{
+    padding-top: 0;
+}
+span.red-error {
+    color: red;
+    font-family: 'Montserrat-Medium';
+    display: block;
+    margin-top: -13px;
+}
+.website-course-price h2:after {
+    content: 'Price can not be less than £10';
+    display: block;
+    color: red;
+    font-size: 16px;
+    margin-top: 10px;
+    font-family: 'Montserrat-Regular';
+    font-weight: normal;
+}
+.page-search-group-session .commerce-add-to-cart .form-submit:after {
+    content: 'Buy This Group Session';
+    font-size: 11px;
+}
+.page-search-group-session .commerce-add-to-cart .form-submit {
+    font-size: 0;
+}
+.page-user-register .field-name-field-country {
+    display: none;
+}
+.top-fix .currencies, .top-fix .note-app {
+    display: none;
+}
+td.fc-event-container {
+    position: relative;
+}
+.country-form .dropdown-menu {
+    right: auto !important;
+    left: 0 !important;
+}
+.country-form ul {
+    overflow: auto !important;
+}
+.flags-container{
+    background:#fafafa;
+    padding:40px 0;
+}
+.flags {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1280px;
+    margin: auto;
+}
+.flags .flag {
+    margin-right: 5rem;
+    margin-bottom: 8px;
+    flex: 1;
+}
+.flags .flag img {
+    border-radius: 20px;
+    object-fit: cover;
+    width: 100%;
+    height: 90%;
+}
+.flags .flag span{
+    display: block;
+    color: #00a89b;
+    font-size: 14px;
+    font-family: 'Montserrat-Regular';
+    text-align: left;
+    margin: 10px 0 0;
+}
+.hierarchical-select-wrapper-for-name-edit-field-category-und select option[value="none"]{
+    display:none;
+}
+.page-node-add-deal h1.text-center a ,
+.page-node-edit h1.text-center a {
+    color: #00a89b;
+    text-transform: capitalize;
+    font-family: 'Montserrat-Regular';
+    font-weight: normal;
+    font-size: 15px;
+    position: absolute;
+    bottom: -15px;
+    background: #fff;
+    box-shadow: 0px 15px 10px -10px #bdbdbd;
+    padding: 7px 15px;
+    border-radius: 5px;
+}
+.page-node-edit form.node-deal-form h1.text-center {
+    color: #000;
+    font-size: 3rem;
+    padding: 40px 10px;
+    margin: 0;
+}
+td.fc-past span {
+    color: #ababab !important;
+}
+td.fc-past {
+    cursor: not-allowed;
+    pointer-events: none;
+}
+.slidenew .view-header h2:before {
+    content: 'Leisure Courses';
+    margin-right: 10px;
+}
+.page-node-add-deal .ief-form.ief-form-bottom > legend,
+.page-node-edit .ief-form.ief-form-bottom > legend {
+    display: none !important;
+}
+div#tooltio_modal .modal-content {
+    max-height: 80vh;
+    overflow: auto;
+}
+div#tooltio_modal h2 {
+    color: #55b1aa;
+    font-size: 22px;
+}
+.offline-tutor-form select.country {
+    pointer-events: none;
+    background-image: none !important;
+    background-color: #efefef;
+}
+div#tooltio_modal h3 {
+    font-size: 18px;
+    font-family: 'Montserrat-Bold';
+}
+div#tooltio_modal p {
+    font-size: 15px;
+}
+.page-node-edit .field-name-field-you-can-choose-2-more-lang .form-checkboxes .form-type-checkbox input {
+    margin-right: 15px;
+}
+.meta {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.meta p {
+    font-size: 16px;
+    border: 1px solid #dbdbdb;
+    background: #e9e7e7;
+    padding: 5px 15px;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+.date-meta p {
+    color: #00a89b;
+    font-family: 'Montserrat-SemiBold';
+}
+.page-search-group-session .form-type-textfield.form-item-quantity.form-item.form-group {
+    display: none;
+}
+.page-search-group-session  .form-submit {
+    margin-top: 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    padding: 17px 10px;
+    text-transform: uppercase;
+}
+.page-user-me-edit .cus-form-group.mobile.cus-6 input, .page-user-me-edit .cus-form-group.mobile.cus-6 select {
+    background: #fbfbfb !important;
+    pointer-events: none;
+}
+.whatsapp-chat img {
+    width: 65px;
+}
+.whatsapp-chat {
+    position: fixed;
+    bottom: 30px;
+    right: 25px;
+    z-index: 9999;
+}
+.clear-both {
+    clear: both;
+}
+.page-user-me-edit .field-name-field-postal-code input {
+    pointer-events: none;
+    cursor: not-allowed;
+    background-color: #fbfbfb !important;
+}
+.page-student-booking-session section#block-system-main .form-item-class-date + span:after {
+    content: 'This is UK timezone, Check and match it with your local time zone to book a session. ';
+    display: block;
+}
+div#edit-field-session {
+    width: 100%;
+}
+.page-node-add-deal .field-name-field-you-can-choose-2-more-lang .form-checkboxes .form-type-checkbox input ,
+.page-node-add-edit .field-name-field-you-can-choose-2-more-lang .form-checkboxes .form-type-checkbox input {
+    margin-right: 15px;
+}
+.field-name-field-country-mobile-code select {
+    background-image: none !important;
+    pointer-events: none;
+}
+.language_hour {
+    color: #00a89b;
+    font-family: 'Montserrat-SemiBold';
+    font-size: 20px;
+    margin-top: 10px;
+}
+.field.field-name-field-you-can-choose-2-more-lang {}.node-type-deal .field.field-name-field-you-can-choose-2-more-lang .field-item {
+    width: 3.1ch;
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 0 5px !important;
+    letter-spacing: 2px;
+}
+.node-type-deal .field.field-name-field-you-can-choose-2-more-lang .field-items {
+    display: flex;
+    align-items: center;
+}
+.node-type-deal .languages {
+    display: flex !important;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.node-type-deal .languages .suitable-img {
+    width: 100%;
+}
+.node-type-deal .languages > .field-item {
+    margin-right: 5px;
+}
+span.error-message {
+    color: red;
+    font-family: 'Montserrat-SemiBold';
+    text-transform: capitalize;
+}
+.page-user-me-edit .country {
+    pointer-events: none;
+    background-image: none !important;
+}
+.page-user-me-edit .locality-block {
+    display: none;
+}
+.page-user-me-edit #field-country-new-add-more-wrapper div {
+    margin-top: 0;
+}
+
+/* .page-user-me-edit #field-country-new-add-more-wrapper div .addressfield-container.locality-block {
+    display: none;
+} */
+.field-name-field-you-can-choose-2-more-lang .form-checkboxes {
+    display: flex;
+    flex-wrap: wrap;
+}
+.field-name-field-you-can-choose-2-more-lang .form-type-checkboxes > label {
+    margin-bottom: 10px;
+    font-family: 'Montserrat-SemiBold';
+}
+
+.field-name-field-you-can-choose-2-more-lang .form-checkboxes .form-type-checkbox {
+    width: 49%;
+    margin-right: 2%;
+    position: relative;
+    margin-top: 0;
+    margin-bottom: 10px !important;
+    display: flex;
+    align-items: center;
+}
+
+.field-name-field-you-can-choose-2-more-lang .form-checkboxes .form-type-checkbox:nth-child(2n) {
+    margin-right: 0;
+}
+
+.field-name-field-you-can-choose-2-more-lang .form-checkboxes .form-type-checkbox label {
+    font-family: 'Montserrat-Regular';
+    font-size: 20px !important;
+    text-transform: uppercase;
+    margin-top: 0 !important;
+}
+
+.field-name-field-you-can-choose-2-more-lang .form-checkboxes .form-type-checkbox input {
+    position: relative;
+    top: 0;
+    margin: 0;
+    left: 0;
+    width: 20px !important;
+    height: 20px !important;
+    border: 1px solid #ff3480 !important;
+    -webkit-appearance: none;
+    box-sizing: border-box;
+    padding: 0 !important;
+    cursor:pointer;
+}
+.field-name-field-you-can-choose-2-more-lang .form-checkboxes .form-type-checkbox input:focus{
+    outline:none;
+}
+.field-name-field-you-can-choose-2-more-lang .form-checkboxes .form-type-checkbox input:checked{
+    background:#ff3480 !important;
+    outline:none;
+}
+.wrapper-form-div{
+    padding:0;
+}
+.page-node-add-deal .wrapper-form-div,
+.page-node-edit .wrapper-form-div{
+    padding:0 15px;
+    margin-top:10px;
+}
+
+.wrapper-form-div h3 {
+    font-size: 19px;
+    font-family: 'Montserrat-SemiBold';
+}
+.page-node-add-deal .wrapper-form-div h3,
+.page-node-edit .wrapper-form-div h3{
+    margin-bottom:0;
+}
+.page-user-me-edit .addressfield-container-inline.locality-block {
+    display: none;
+}
+span.local-time {
+    margin-left: 10px;
+    display: inline-block;
+    font-family: 'Montserrat-Medium';
+}
+.page-tutor-form .field-type-addressfield div {
+    margin-top: 0 !important;
+}
+
+.field-type-addressfield legend.panel-heading {
+    display: none;
+}
+
+.field-type-addressfield .panel {
+    box-shadow: none !important;
+    background: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    width: 100%;
+}
+
+.field-type-addressfield .panel-body {
+    padding: 0;
+}
+
+.page-tutor-form div#edit-field-city {
+    display: none;
+}
+
+.page-tutor-form div#edit-field-postal-code {
+    display: none;
+}
+
+.page-tutor-form .country {
+    height: 40px;
+    border-color: #cccccc;
+}
+
+.field-name-field-phone {
+    margin-top: 22px;
+}
+
+.field-name-field-phone:after {content: '';display: block;width: 100%;clear: both;}
+
+.field-name-field-country-mobile-code select {
+    height: 40px;
+    border-color: #cccccc;
+    background-color: #fff !important;
+}
+
+.field-name-field-country-new {
+    margin-bottom: 0;
+}
+
+.page-tutor-form .field-name-field-country {
+    display: none;
+}
+
+.page-tutor-form .addressfield-container-inline.locality-block div {width: 48.5%;}
+
+.page-tutor-form .addressfield-container-inline.locality-block div:nth-child(2) {
+    margin-right: 0;
+}
+
+.page-tutor-form .addressfield-container-inline.locality-block {
+    display: flex;
+    flex-wrap: wrap;
+}
+span.note-app {
+    font-size: 14px;
+    color: #585757;
+    font-family: 'Montserrat-SemiBold';
+    display: block;
+    text-align: right;
+}
+body h3.currency {
+    font-size: 18px !important;
+    text-align: center;
+    align-items: center !important;
+    border: 1px solid #e3e3e3;
+    border-radius: 5px;
+    margin-right: 8px !important;
+    padding: 5px !important;
+    justify-content: center !important;
+    flex: 1;
+}
+.currencies {
+    display: flex;
+}
+h3.currency small {
+    display: block;
+}
+
+html body h3.currency span:first-child {display: flex !important;flex-wrap: wrap;align-items: center;justify-content: center;}
+h3.currency span i{
+    font-size: 30px;
+    color: #00a89b;
+    margin-right: 5px;
+    font-style: normal;
+}
+h3.currency:last-child {
+    margin-right: 0 !important;
+}
+
+h3.currency span {
+    text-align: left;
+    font-family: 'Montserrat-Medium';
+}
+.node-type-group-session .form-group .ief-entity-submit, .form-submit button[value=Remove].btn.btn-danger{
+    margin-top:0;
+}
+.node-type-group-session .form-group button[value="Cancel"]{
+    margin-left:5px;
+}
+.node-type-group-session table#ief-entity-table-edit-field-session-und-entities thead {
+    display:none;
+}
+.node-type-group-session .btn-success[value="Add new product"]:before {
+    content: 'Add New Batch';
+    font-size: 16px;
+}
+.node-type-group-session .btn-success[value="Add new product"] {
+    font-size: 0;
+}
+span.errors {
+    font-size: 15px;
+    color: red;
+    font-family: 'Montserrat-SemiBold';
+}
+span.tooltiptext.stock{
+    display:block !important;
+}
+.node-type-group-session .field-type-text-long {
+    width: 100%;
+}
+ .node-type-group-session form > div {
+display: flex;
+flex-wrap: wrap;
+}
+.node-type-group-session form .form-item-title, .node-type-group-session .field-name-field-tutor-subject, .node-type-group-session .field-name-field-age-group, .node-type-group-session .field-name-field-cancellation-type {width: 25%;padding-right: 15px;margin-bottom: 0;}
+.node-type-group-session .field-name-field-cancellation-type{
+    padding-right:0;
+}
+.node-type-group-session .selects {
+width: 100%;
+}
+.node-type-group-session input, .node-type-group-session select {height: 50px !important;background: inherit;border-radius: 10px;width: 100% !important;display: block;font-size: 16px !important;}
+.node-type-group-session .field-name-field-session-end-date div.date-padding > div:nth-child(2n){
+    width:100%;
+}
+.node-type-group-session .form-type-hierarchical-select .selects{
+    display:flex;
+    flex-wrap:wrap;
+}
+.node-type-group-session .form-type-hierarchical-select .selects select.form-select:last-child {
+flex:auto;
+}
+.node-type-group-session .field-name-field-cancellation-type select.form-select {
+font-size: 16px !important;
+}
+.node-type-group-session legend.panel-heading {
+display: none;
+}
+.node-type-group-session .ief-form .panel-body {
+padding: 0;
+}
+.node-type-group-session .form-item-field-session-und-form-sku {
+width: 100%;
+}
+.node-type-group-session .field-name-commerce-price {width: 66%;float: left;padding-right: 15px;}
+.node-type-group-session .field-name-field-places-available, .node-type-group-session .field-name-field-places-sold {width: 50%;float: left;}
+.node-type-group-session .field-name-field-group-strength{
+    padding-right:0;
+}
+.node-type-group-session .field-name-field-group-strength{
+    width: 34%;
+}
+.node-type-group-session .field-name-field-places-sold{
+    padding-right:15px;
+}
+.node-type-group-session .calendario {clear: both;box-shadow: 0px 0px 30px 0px #c7c7c7;border-radius: 20px;overflow: hidden;padding: 20px;width: 55%;}
+.node-type-group-session .field-name-field-session-start-date {width: 66%;float: left;padding-right: 15px;}
+.node-type-group-session .field-name-field-session-end-date {width: 34%;}
+.node-type-group-session .field-name-field-session-start-date div {
+margin: 0 !important;
+padding: 0;
+width: 100%;
+}
+.node-type-group-session .field-name-field-session-start-date div, .node-type-group-session .field-name-field-session-end-date div {
+margin: 0 !important;
+padding: 0;
+width: 100%;
+}
+.node-type-group-session .field-name-field-session-end-date div.date-padding div:nth-child(2n) div{
+    width:100%;
+}
+.node-type-group-session .field-name-field-session-start-date div.date-padding > div, 
+.node-type-group-session .field-name-field-session-end-date div.date-padding > div{
+    width: 50%;
+    padding-right:15px;
+}
+.node-type-group-session .field-name-field-session-start-date div.date-padding > div:nth-child(2n), 
+.node-type-group-session .field-name-field-session-end-date div.date-padding > div:nth-child(2n){
+    padding-right:0px;
+    width: 100;
+}
+.node-type-group-session .field-name-field-session-end-date div.date-padding > div:first-child{
+    display:none;
+}
+.node-type-group-session .activate-course {width: 100%;background: inherit;margin-bottom: 10px !important;}
+.node-type-group-session .website-course-price > div {max-width: 100%;}
+.node-type-group-session .activate-course .checkbox {
+margin: 0 !important;
+text-align: left;
+height: 50px;
+border: 1px solid #cccccc;
+border-radius: 10px;
+display: flex;
+justify-content: center;
+padding-top: 13px;
+}
+.node-type-group-session .field-name-field-stock{
+    width: 25%;
+}
+.node-type-group-session .website-course-price > div h2 {margin-top: 0 !important;text-align: left;width: 100%;color: #000;font-size: 16px;margin-bottom: 12px !important;font-family: 'Montserrat' !important;}
+.node-type-group-session .website-course-price > h2{
+display:none;
+}
+.node-type-group-session .fc-row.fc-widget-header th{
+min-height: 0 !important;
+height: 40px;
+}
+.node-type-group-session .fc-row.fc-rigid .fc-content-skeleton table td{
+background:none;
+height: auto;
+}
+.node-type-group-session .fc-basic-view .fc-body .fc-row{
+height:50px !important;
+}
+
+.node-type-group-session button.fc-today-button.fc-button {
+display:none !important;
+}
+.node-type-group-session .calendario .fc-toolbar button{
+background:none;
+border: none;
+box-shadow: 0px 0px 10px 0px #d6d6d6;
+margin: 0 5px;
+border-radius: 5px;
+}
+.node-type-group-session .calendario .fc-toolbar h2{
+margin-bottom:10px ;
+}
+.node-type-group-session .calendario .fc-today{
+background:none;
+}
+.node-type-group-session .calendario .fc-today span{
+background:#00a89b;
+color:#fff;
+}
+.node-type-group-session span.tooltiptext.cancellation,
+.node-type-group-session span.tooltiptext.commerce-price-tooltiptext {
+    display:none ;
+}
+.date-box-wrap {
+    width: 40%;
+    margin-right: 5%;
+}
+.node-type-group-session form .field-name-field-short-description > div {
+    width: 100%;
+}
+.node-type-group-session textarea {
+    border: 1px solid #cccccc;
+    border-radius: 15px;
+}
+.node-type-group-session .field-type-text-with-summary {
+    width: 100%;
+}
+.node-type-group-session .field-type-text-with-summary > div {
+    width: 100%;
+}
+.node-type-group-session div#edit-actions button {
+    margin: 0;
+    border-radius: 5px;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+    width: 100%;
+    max-width: 300px;
+    height: 60px;
+    margin: 0 10px;
+}
+button#edit-preview{
+    display:none;
+}
+.node-type-group-session form {
+    box-shadow: -1px 0px 40px -10px #c7c7c7;
+    padding: 40px;
+    border-radius: 10px;
+    margin: 80px auto;
+}
+.node-type-group-session .ckeditor_links {
+    color: #00a89b;
+    font-weight: 600;
+}
+
+.date-box-wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+.date-box-wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.node-type-group-session form div#edit-actions {
+    justify-content: center;
+    margin-bottom: 0;
+    width: 100%;
+    display: flex;
+}
+.node-type-group-session .website-course-price .field-type-commerce-price input {
+    background: url(/sites/all/themes/hobbycourse/img/british-pound.png) !important;
+    background-repeat: no-repeat !important;
+    background-size: 15px !important;
+    background-position: 8% center !important;
+    padding-left: 40px !important;
+}
+.node-type-group-session .website-course-price .field-type-commerce-price input{
+    max-width: 369px;
+}
+.node-type-group-session .website-course-price input {
+    background: none !important;
+    padding-left: 20px !important;
+}
+.node-type-group-session .field-name-field-session-start-date label:before {
+    content: 'Start';
+    margin-right: 5px;
+}
+.node-type-group-session .field-name-field-session-end-date label:before {
+    content: 'End';
+    margin-right: 5px;
+} 
+.node-type-group-session .form-item-field-session-und-form-status {
+    display: none;
+}
+.node-type-group-session .website-course-price{
+    padding: 0;
+    justify-content: flex-start;
+}
+.field-widget-inline-entity-form .ief-entity-table thead {
+}
+.field-widget-inline-entity-form .ief-entity-table td {
+    border: none !important;
+    position: relative;
+}
+.node-type-group-session td .ief-form {
+    width: 88%;
+    float: left;
+    padding-right: 15px;
+}
+.node-type-group-session td .form-actions button {
+    width: 100%;
+    display: block;
+    border: none;
+    font-weight: 100;
+    font-size: 15px;
+    max-width: 125px;
+    padding: 0 !important;
+    height: 48px;
+    border-radius: 10px;
+    margin-top: 26px;
+}
+.node-type-group-session td .field-name-commerce-price,
+.node-type-group-session td .field-name-field-group-strength{
+    width: 20%;
+}
+.node-type-group-session td .field-name-field-session-start-date{
+    width: 40%;
+    padding-left: 15px;
+}
+.node-type-group-session td .field-name-field-stock{
+    width: 15%;
+}
+.node-type-group-session td .field-name-field-session-end-date{
+    width: 20%;
+}
+.node-type-group-session tr.ief-row-entity td .panel {
+    background: inherit;
+}
+.node-type-group-session tr.ief-row-entity{
+    padding-bottom:10px !important;
+}
+.node-type-group-session tr.ief-row-entity td {
+    background: #f2f2f2;
+    padding: 32px 30px 0 !important;
+    width: 100%;
+}
+.node-type-group-session tr.ief-row-entity:last-child td{
+    border:none !important;
+}
+.node-type-group-session tr.ief-row-entity > td:nth-child(2){
+    display:none;
+}
+.node-type-group-session div#edit-field-session-und-form-actions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.node-type-group-session div#edit-field-session-und-form-actions button[value="Cancel"] {
+    height: 57px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 16px;
+    margin-left: 20px;
+    background: #ff3480;
+    padding: 0 45px;
+}
+.node-type-group-session .ui-datepicker-title select {
+    width: 40% !important;
+    margin-right: 5% !important;
+}
+.node-type-group-session .field-type-commerce-price label {
+    font-size: 14px;
+}
+.node-type-group-session label {
+    display: inline-flex;
+    align-items: center;
+    color: #474747;
+    font-family: 'Montserrat-SemiBold';
+    font-size: 15px;
+    height: auto;
+}
+.node-type-group-session label.element-invisible{
+    position:relative !important;
+}
+.node-type-group-session span.form-required:before {
+    content: '*';
+    color: red;
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.node-type-group-session span.form-required {
+    width: 25px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+@media (max-width: 980px){
+    .node-type-group-session form {
+        padding: 25px;
+        margin: 0;
+    }
+    .node-type-group-session form .form-item-title, 
+    .node-type-group-session .field-name-field-tutor-subject, 
+    .node-type-group-session .field-name-field-age-group, 
+    .node-type-group-session .field-name-field-cancellation-type,
+    .node-type-group-session td .field-name-commerce-price, 
+    .node-type-group-session td .field-name-field-group-strength {
+        width: 50%;
+    }
+    .node-type-group-session .field-name-field-tutor-subject {
+        padding-right: 0;
+    }
+    .node-type-group-session td .ief-form {
+        width: 100%;
+        padding-right: 0;
+    }
+    .node-type-group-session td .field-name-field-session-start-date {
+        width: 70%;
+        padding-left: 0;
+    }
+    .node-type-group-session td .field-name-field-session-end-date {
+        width: 30%;
+    }
+    .node-type-group-session td .form-actions button {
+        max-width: 80%;
+        margin: 0 auto 25px;
+    }
+}
+
+@media (max-width: 580px){
+    body.node-type-group-session div#edit-field-session-und-form-actions button {
+        padding: 8px 15px !important;
+        font-size: 12px !important;
+        height: auto !important;
+    }
+    div#counter_number {
+        max-width: 100%;
+    }
+    form#qualifications-edit-new-form .form-type-textfield:before{
+        font-size: 12px;
+    }
+    h3.form-heading.home-tutr:after,
+    h3.form-heading.online-tutr:after{        
+        font-size: 10px;
+    }
+    .flags .flag img {
+        border-radius: 5px;
+        height: 60px;
+    }
+    body .privatemsg-message-participants {
+        padding-bottom: 46px;
+        font-size: 16px;
+    }
+    .page-tutor-form .addressfield-container-inline.locality-block div {
+        width: 100%;
+        margin: 0;
+    }
+    .page-node-edit .field-widget-image-image>div {
+        margin: 0 !important;
+    }
+    .flags .flag {
+        margin-right: 1rem;
+        flex: 30%;
+    }
+    body .language_hour,
+    body a.open-link-new{
+        font-size: 14px;
+    }
+    .whatsapp-chat img {
+        width: 47px;
+    }
+    #backtotop{
+        display: none !important;
+    }
+    .whatsapp-chat {
+        bottom: 17px;
+        right: 1rem;
+    }
+    .whatsapp-chat-box.open{
+        width: 28rem;
+        height: 37rem;
+        right: 0.5rem;
+    }
+    .whatsapp-chat-box h4{font-size: 1.5rem;}
+    .whatsapp-chat-box p{
+        font-size: 14px;
+    }
+    .page-node-add-deal h1.text-center a ,
+    .page-node-edit h1.text-center a {
+        font-size: 8px;
+        bottom: -6px;
+        box-shadow: 0px 7px 10px -6px #bdbdbd;
+        padding: 4px 15px;
+    }
+    .website-course-price h2, .activate-course h2{
+        margin:0;
+    }
+    body.page-node-add-deal .calendario-deal .form-control,
+    body.page-node-edit .calendario-deal .form-control {
+        height: 36px !important;
+        font-size: 12px !important;
+    }
+    .wrapper-form-div h3 {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+    .page-node-add-deal .wrapper-form-div,
+    .page-node-edit .wrapper-form-div {
+        padding: 0;
+    }
+    .page-node .calendario-deal label, form.node-deal-form label {
+        font-size: 13px !important;
+    }
+    .field-name-field-you-can-choose-2-more-lang .form-checkboxes .form-type-checkbox label {
+        font-size: 13px !important;
+    }
+    body.page-node-add-deal .field-widget-image-image > div,
+    body.page-node-edit .field-widget-image-image > div {
+        margin: 0;
+    }
+    h3.currency span i{
+        font-size:20px;
+    }
+    span.note-app{
+        font-size:12px;
+    }
+    h3.currency span{
+        font-size:14px;
+    }
+    .node-type-group-session div#edit-actions button{
+        height:36px;
+        padding:0;
+        font-size:12px;
+    }
+    .node-type-group-session .form-group button[value="Cancel"]{
+        margin-left:0;
+        width:100%;
+        height: 36px;
+        font-size: 12px;
+        padding: 0;
+    }
+    .node-type-group-session .ief-entity-submit, .form-submit button[value=Remove].btn.btn-danger{
+        width:100%;
+        margin-bottom:10px;
+        height:36px;
+        font-size:12px !important;
+        padding:0;
+    }
+    body.node-type-group-session .field-name-field-stock{
+        width: 100%;
+    }
+    .node-type-group-session .field-name-field-tutor-subject{
+        margin-top:10px;
+    }
+    .node-type-group-session textarea.form-control{
+        height:100px !important;
+    }
+    .node-type-group-session span.form-required{
+        width:14px;
+    }
+    .node-type-group-session span.form-required:before{
+        font-size:15px;
+    }
+    .node-type-group-session form .form-item-title, .node-type-group-session .field-name-field-tutor-subject, .node-type-group-session .field-name-field-age-group, .node-type-group-session .field-name-field-cancellation-type, .node-type-group-session td .field-name-commerce-price, .node-type-group-session td .field-name-field-group-strength{
+        width:100%;
+        padding-right:0;
+    }
+    body.node-type-group-session form > div#edit-actions button{
+        padding: 8px 21px;
+        height: auto;
+        width: auto;
+        font-size: 15px;
+        border-radius: 5px !important;
+    }
+    .node-type-group-session .panel-body {
+        padding: 0;
+    }
+    .node-type-group-session label,
+    .node-type-group-session .field-type-commerce-price label {
+        font-size: 12px;
+        margin-right: 0 !important;
+    }
+    .node-type-group-session input, .node-type-group-session select {
+        height: 38px !important;
+        font-size: 10px !important;
+    }
+    .node-type-group-session .form-type-hierarchical-select .selects select.form-select:last-child {
+        margin-bottom: 0 !important;
+    }
+    .node-type-group-session .field-name-field-cancellation-type select.form-select {
+        font-size: 10px !important;
+        background-size: 16px !important;
+    }
+    .node-type-group-session tr.ief-row-entity td {
+        padding: 15px 15px 0 !important;
+    }   
+    .node-type-group-session .field-name-field-session-start-date div.date-padding > div, .node-type-group-session .field-name-field-session-end-date div.date-padding > div {
+        width: 100%;
+        padding-right: 0;
+        margin-bottom: 10px !important;
+    }
+    .node-type-group-session td .field-name-field-session-start-date {
+        width: 100%;
+        padding-right: 0;
+        margin-bottom: 0;
+    }
+    body.node-type-group-session .field-name-commerce-price, body.node-type-group-session .field-name-field-group-strength {
+        margin-bottom: 0 !important;
+    }
+    .node-type-group-session td .field-name-field-session-end-date {
+        width: 100%;
+    }
+    .node-type-group-session .field-name-commerce-price,
+    .node-type-group-session .field-name-field-session-start-date,
+    .node-type-group-session .field-name-field-session-end-date {
+        width: 100%;
+        padding-right: 0;
+    }
+    .node-type-group-session .website-course-price > div{
+        margin-bottom:0;
+    }
+    .node-type-group-session td .field-name-commerce-price{
+        padding-right: 0;
+    }
+    .node-type-group-session .field-name-field-places-available, .node-type-group-session .field-name-field-places-sold, .node-type-group-session .field-name-field-group-strength {
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+.page-student-booking-session input#edit-end + .bootstrap-datetimepicker-widget,
+.page-student-booking-session input#edit-start + .bootstrap-datetimepicker-widget {
+    display: none !important;
+}
+.page-student-booking-session .ui-timepicker-container {
+    max-width: 130px !important;
+    border-radius: 5px;
+    margin-top: 5px;
+    box-shadow: 0px 0px 15px -2px #afafaf;
+    border-color: gainsboro;
+}
+.page-student-booking-session .ui-timepicker-container ul.ui-timepicker-viewport {
+    width: 130px !important;
+    padding: 0 !important;
+}
+.page-student-booking-session .ui-timepicker-container ul.ui-timepicker-viewport li {
+    width: 100% !important;
+    border-bottom: 1px solid #e6e6e6;
+}
+.search-main .form-item-session-type label:after {
+    display: none;
+}
+.page-node-add-deal div#edit-field-online-facilities-und .form-type-radio.form-item-field-online-facilities--und.form-item.radio:nth-child(2),
+.page-node-edit div#edit-field-online-facilities-und .form-type-radio.form-item-field-online-facilities--und.form-item.radio:nth-child(2) {
+    display: none !important;
+}
+body .inner_bok button h4.reg_desc {
+    font-size: 15px;
+    line-height: 1.7;
+    font-family: 'Montserrat-Medium';
+    font-weight: normal;
+    color: #3a3a3a;
+    margin-bottom: 0;
+    min-height: 120px;
+}
+.mt img {
+    max-width: 500px;
+}
+body .inner_bok button h4.reg_desc span {
+    color: #00a89b;
+    font-family: 'Montserrat-SemiBold';
+}
+.page-tutor-form div#edit-educatore-register:after {
+    content: '' !important;
+    background-image: url('https://myhobbycourses.com/sites/all/themes/hobbycourse/images/Horizontal infographic New.jpg');
+    width: 100%;
+    height: 360px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+.fc-more-popover a.fc-day-grid-event:nth-child(n+2) {
+    display: none;
+}
+a.fc-more {
+    font-size: 0;
+}
+a.fc-more:after {
+    content: '+1 More';
+    font-size: 15px;
+}
+.node-type-deal table#myTable tbody tr td:nth-child(6), .node-type-deal table#myTable thead tr th:nth-child(6), .node-type-deal table#myTable tbody tr td:nth-child(8), .node-type-deal table#myTable thead tr th:nth-child(8) {
+    display: none;
+}
+.leisure-tutor .price-tag {
+    display: none;
+}
+.page-vendor-profile .seven-cols .one-day-timing div.one-time div {
+    font-size: 13px;
+}
+body.page-vendor-profile .seven-cols .one-day-timing div.one-time div:first-child:after {
+    font-size: 13px;
+    right: 0;
+}
+.page-student-booking-session .datepicker thead tr:first-child {
+    background: #ff3480;
+}
+.page-student-booking-session .datepicker thead tr:first-child th {
+    border-radius: 0 !important;
+    padding: 0;
+}
+form#add-schedule-student-item-form .form-item-session-type label:after {
+    display: none;
+}
+.zoom-block .timepicker span {
+    color: #000 !important;
+}
+.zoom-block .timepicker a.btn {
+    padding: 10px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.zoom-block .timepicker button.btn.btn-primary {
+    font-size: 10px;
+    padding: 7px 12px;
+}
+
+li.picker-switch.accordion-toggle {}
+
+.zoom-block .timepicker tbody tr:nth-child(2) td {
+    padding: 15px 2px;
+}
+
+.zoom-block .timepicker table {
+    width: 100%;
+}
+.course-main {
+    display: flex;
+    align-items: flex-start;
+}
+.order-custom-view .table{
+    border-radius:20px;
+    overflow:hidden;
+    border:1px solid #e8e8e8;
+    margin-bottom: 50px;
+}
+.order-custom-view .table tbody tr td:nth-child(2) span{
+    font-size:18px;
+    font-family: 'Montserrat-SemiBold';
+}
+.course-order-image {
+    margin-right: 20px;
+}
+.order-custom-view .table tbody td{
+    font-size:18px;
+}
+.course-content {
+    max-width: 450px;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.course-content span {
+    font-family: 'Montserrat-SemiBold';
+}
+
+.course-content > a {
+    display: block;
+}
+.datepicker tbody span {
+    color: #000 !important;
+}
+.online-category-page .info .c_name {
+    padding-top: 0 !important;
+}
+.online-category-page .info .c_name p {
+    margin-top: 0;
+}
+.online-category-page .c_price p {
+    padding-top: 30px;
+}
+body .online-category-page .info .col-xs-3 img {
+    width: 30px;
+    height: 38px;
+}
+span.inner-notice {
+    color: #01a89b;
+    display: block;
+    text-align: left;
+    margin-bottom: 8px;
+    font-family: 'Montserrat-Bold';
+}
+.node-type-blog .author_info .field-item {
+   font-size: 20px;
+    font-family: 'Montserrat-Bold';
+    font-weight: bold;
+}
+
+.blog_read_more a {
+    background: #ff3480;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-family: 'Montserrat-Regular';
+}
+.foot-contact, .foot-contact > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.foot-contact h4 {
+    margin: 0 0 0 15px;
+    text-transform: none;
+}
+
+.foot-contact img {
+    width: 30px;
+    background: #fff;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.foot-contact > div {
+    margin: 10px 20px 0;
+}
+section#block-views-blog-pages-block-1 .blog-content {
+    padding-bottom: 70px;
+}
+.region.region-content-top .view.view-blog-pages img {
+    display: none;
+}
+.view.view-blog-pages .field-content {
+    background: url(https://myhobbycourses.com/sites/all/themes/hobbycourse/images/line-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.node-type-blog .region.region-content-top {
+    position: absolute;
+    top: 0;
+    height: 500px;
+    width: 100%;
+}
+.node-type-blog .main-container * {
+    background: inherit !important;
+}
+
+.node-type-blog .blogDetailDescription h2 span strong {
+    font-size: 38px !important;
+    font-family: 'Montserrat-Bold';
+    color: #00a89b;
+    margin: 30px 0 20px !important;
+    display: block;
+    justify-content: left;
+    text-align: left;
+}
+.leisure-tutor .group-btn {
+    display: none !important;
+}
+.hover-drop.sm {
+    max-width: 360px;
+}
+li.dropdown.tutor {
+    position: relative;
+}
+.form-item-session-type label {
+    font-size: 0;
+}
+.form-item-session-type label:after {
+    content: 'Session';
+    font-size: 21px;
+}
+.node-type-group-session .row .col-md-12 > div:nth-child(3) {
+    margin-bottom: 50px;
+}
+.node-type-group-session .row .col-md-12 > div:nth-child(2), .node-type-group-session .row .col-md-12 > div:nth-child(3) {
+    width: 100%;
+    flex: 100%;
+    box-shadow: none;
+    padding: 0;
+}
+.node-type-group-session .row .col-md-12 > div p {
+    font-family: 'Montserrat-Regular' !important;
+    font-size: 20px !important;
+    letter-spacing: 0 !important;
+}
+.node-type-group-session .row span {
+    font-size: 20px;
+}
+.node-type-deal div#comments {
+    display: block;
+}
+.node-type-deal .rating-box {
+    margin-bottom: 0;
+}
+.node-type-group-session a.btn.btn-primary.form-submit {
+    margin: 45px auto;
+    display: block;
+    max-width: 300px;
+}
+.order-custom-view .table > tbody > tr.odd > td a.calendario-details-show-order {
+    background: #ff3480;
+    color: #fff !important;
+    border: none;
+    padding: 14px 50px;
+    border-radius: 8px;
+    font-size: 17px !important;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.slink b:before {
+    content: '';
+    background: url(/sites/all/themes/hobbycourse/css/images/new-zoom.png);
+    width: 35px;
+    height: 30px;
+    display: inline-block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+.zoom_detials {
+    border: 1px solid #e4e4e4;
+    padding: 19px 20px  0;
+    margin-top: 20px;
+    border-radius: 5px;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+}
+.zoom_detials > img {
+    width: 100px;
+}
+
+.zoom_detials p {
+    font-size: 18px;
+}
+
+.zoom_detials p strong {
+    font-family: 'Montserrat-Bold';
+}
+.slink b {
+    font-size: 0;
+}
+.slink {
+    display: flex;
+    align-items: flex-start;
+}
+.slink a {
+    color: #61b7b0;
+    font-size: 15px;
+    line-height: 1.6;
+}
+.order-custom-view b {
+    font-weight: normal;
+    font-family: 'Montserrat-Bold';
+    margin-right: 5px;
+}
+body .info .col-xs-3 img {
+    width: 39px;
+    height: 39px;
+    object-fit: contain;
+}
+.page-category-deals .info .c_name:before{
+    display: none !important;
+}
+.page-category-deals .info .col-xs-3:nth-child(2) {
+    padding: 0 !important;
+}
+.page-category-deals .info .col-xs-3:nth-child(2) p {
+    margin: 0;
+}
+body .info .col-xs-3 img {
+    width: 39px;
+    height: 39px;
+    object-fit: contain;
+    margin-top: -10px;
+}
+.top-fix .dis-number {
+    display: none;
+}
+.for-mob{
+    display: none;
+}
+.order-custom-view .table tbody td {
+    vertical-align: top !important;
+}
+body .field-name-field-amenities .form-type-checkbox input{
+    width: 26px !important;
+    height: 20px !important;
+    display: inline-block;
+    border: 1px solid #00a89b;
+    min-height: 20px;
+    border-radius: 5px;
+}
+body .field-name-field-amenities .form-type-checkbox input::checked{
+    background:Red;
+}
+.main_sales {
+    box-shadow: 0px 0px 20px 0px #dadada;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.page-node-add-deal .ui-timepicker-container ,
+.page-node-edit .ui-timepicker-container {
+    z-index: 19999999999999999 !important;
+}
+.page-node-add-deal .switcher-block,
+.page-node-add-deal .activate-course {
+    display: none;
+}
+.main_sales h3 {
+    clear: both;
+    margin-top: 0;
+    color: #00a89b;
+    padding: 10px;
+    font-size: 12px;
+    font-family: 'Montserrat-Medium';
+    position: absolute;
+    top: 0;
+    display: none;
+}
+body .main_sales .order-section{
+    border-radius:0;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 20px;
+}
+body .main_sales > .order-section:nth-child(3){
+    border:none !important;
+}
+.page-node-add-deal .fc-content-skeleton tbody td.fc-event-container a span.fc-time ,
+.page-node-edit .fc-content-skeleton tbody td.fc-event-container a span.fc-time {
+    display: block;
+    text-align: center;
+}
+.page-node-add-deal .fc-content-skeleton tbody td.fc-event-container a ,
+.page-node-edit .fc-content-skeleton tbody td.fc-event-container a {
+    position: absolute;
+    width: 93%;
+    left: 3px;
+    bottom: 0;
+    padding: 10px 2px;
+}
+
+/* New search page */
+.hour_show_new p {
+    border: 1px solid #c3c3c3;
+    display: inline-block;
+    margin-right: 10px;
+    padding: 7px 20px;
+    border-radius: 5px;
+    font-size: 19px;
+}
+.hour_show_new p:empty {
+    display: none;
+}
+.offline-result form#front-page-search-hour > div > div:nth-child(2),
+.online-result form#front-page-search-hour > div > div:nth-child(2) {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+body .offline-result .subjectResults form .col-xs-12:last-child {
+    align-items: flex-start;
+}
+.offline-result form#front-page-search-hour > div > div:nth-child(2) > div,
+.online-result form#front-page-search-hour > div > div:nth-child(2) > div{
+    width: 71%;
+    flex: 0 0 71%;
+}
+.offline-result .subjectResults .hour_tu_price a, .offline-result .tutor_resu .hour_tu_price a {
+    font-size: 12px;
+}
+.mobicon {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 8px;
+    justify-content: space-between;
+    align-items: center;
+}
+body .hour_tu_price .mobicon h3 {
+    width: auto;
+    margin: 0px 10px 0px 0px;
+    padding: 0;
+}
+.tudetails {
+    margin-top: 15px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.page-search .form-submit{
+    height: 60px !important;
+    border-radius: 10px !important;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+span.statuss {
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin-left: 5px;
+}
+.tutor_resu p{
+    font-size: 19px;
+}
+.tutor_resu p a{
+    display:block;
+    color: #00a89b;
+    font-family: 'Montserrat-SemiBold';
+    margin-top: 5px;
+}
+span.statuss:before {
+    content: '';
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    background: #02d769;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+.search-banner {
+    background: url(/sites/all/themes/hobbycourse/css/images/pinkbg.jpg);
+    padding: 30px 25px;
+    text-align: center;
+    color: #fff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position:relative;
+}
+.search-banner:before,
+.search-banner:after{
+    content:'';
+    background: url(/sites/all/themes/hobbycourse/css/images/pinkbg.jpg);
+    width:100%;
+    height:100%;
+    display:block;
+    position:absolute;
+    left:-100%;
+    top:0;
+}
+.search-banner:after{
+    left:auto;
+    right:-100%;
+}
+.search-banner h1 {
+    color: #fff;
+    text-transform: capitalize;
+    margin-top: 0;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+}
+.search-banner h1 span {
+    background: #fff;
+    color: #ff3480;
+    border-radius: 50%;
+    margin-right: 10px;
+    padding: 5px;
+    font-size: 16px;
+    width: 50px;
+    height: 50px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tudetails img {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+    margin-right: 5px;
+}
+.search-banner h2 {
+    color: #fff;
+    font-size: 28px;
+    margin: 15px auto 0;
+    line-height: 1.5;
+    font-weight: 400;
+    font-family: 'Montserrat-Regular' !important;
+    text-transform: capitalize;
+}
+.tutor_resu {
+    box-shadow: 0px 0px 30px -8px #dedede;
+    display: flex;
+    margin-bottom: 55px;
+    border-radius: 10px;
+    padding: 30px;
+}
+.imgbx {
+    height: 200px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.imgbx img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+.tutor_resu h2 {
+    margin-top: 0;
+    font-weight: 700;
+    font-size: 26px;
+}
+.hour_show_new p {
+    font-size: 18px;
+}
+body .hour_tu_price p {
+    color: #ababab;
+    font-family: 'Montserrat-Regular';
+    font-size: 16px;
+    font-weight: normal;
+}
+body .hour_tu_price h3 {
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 40px;
+    margin: 10px auto;
+    width: 100%;
+    display: flex;
+    align-items: baseline;
+    justify-content: flex-start;
+    font-family: 'Montserrat-SemiBold';
+}
+.hour_tu_price h3 span {
+    float: left;
+}
+
+/* New search page */
+
+.new-course-search section#search-results-wrapper {
+    height: 100% !important;
+    overflow: unset !important;
+}
+#tutor_tab #front-page-search-hour .form-submit, #tutor_tab .search-results-form .form-submit, .form-box button#edit-submit{
+    border-radius: 100px;
+    font-size: 18px;
+    max-width: 300px;
+    margin: 30px auto 0;
+    height: 55px;
+    padding: 0;
+}
+ul#veryfy_address_list {
+    padding-left: 0;
+}
+ul#veryfy_address_list li{
+    font-family:Montserrat;
+    margin-bottom: 6px;
+}
+body .highlight {
+    font-weight: 700;
+    font-size: 17px;
+}
+button {
+    outline: none !important;
+}
+li.dropdown.tutor .hover-drop {
+    width: 100%;
+    min-width: 300px;
+}
+div#edit-field-i-conduct-session {
+    display: none !important;
+}
+body.not-logged-in.page-tutor-form div#edit-educatore-register>h3 > span {
+    display: inline-flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-right: 10px;
+}
+body.not-logged-in.page-tutor-form div#edit-educatore-register>h3 span img {
+    width: 60px;
+    margin-right: 12px;
+}
+
+.seven-cols .one-day-timing div.one-time{
+    padding: 0 !important;
+}
+
+/*team*/
+.page-node-2024 .main-container {
+    background: #fff!important;
+    padding-top: 0 !important;
+}
+.cnt {
+    z-index: 9;
+    background: #fff;
+    transition: 0.3s;
+    padding: 10px 10px 20px;
+    text-align: left;
+}
+.card-active .cnt {
+    animation-name:topgo;
+    width: 100%;
+    height: auto;
+    animation-duration:0.4s;
+    position:absolute;
+    top:0;
+    left:0;
+    background:#13aea2;
+}
+.card-active .desc,
+.card-active .motto{
+    display:block;
+    color:#fff !important;
+}
+body .card-active h3,
+.card-active .position,
+h5.motto span{
+    color:#fff !important;
+}
+@keyframes topgo{
+    from{
+        top:100%;
+    }to{
+        top:0;
+    }
+}
+.card-active {
+    opacity: 1 !important;
+}
+.card-active .cnt {
+    opacity: 1;
+}
+.row-new {
+            display: flex;
+            flex-wrap: wrap;
+            max-width: 1200px !important;
+            margin: 0 auto;
+        }
+        .card-box h3 {
+            font-size: 20px !important;
+            text-transform: uppercase;
+            color: black !important;
+            margin-top: 5px;
+        }
+        .card-box {
+            text-align: center;
+            flex: 0 0 23%;
+            background: #fff;
+            margin: 1% 1% 2%;
+            position: relative;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+        .p-img {
+            overflow: hidden;
+            width: 100%;
+            height: 335px;
+        }
+        .p-img img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center;
+        }
+        span.position {
+            padding: 2px 0px;
+            display: inline-block;
+            font-size: 15px;
+            border-top: 1px solid #cacaca;
+            padding-top: 7px;
+            margin-top: 4px;
+            color: #5f5f5f;
+        }
+        h5.motto {
+            font-size: 13px;
+            line-height: 1.3;
+            color: #000;
+            display: none;
+        }
+        h5.motto span {
+            font-weight: 600;
+            color: #0c9a9b;
+            display: block;
+            margin-bottom: 5px;
+        }
+        p.desc {
+            font-size: 13px !important;
+            line-height: 1.4 !important;
+            border-radius: 10px;
+            transition: 0.3s;
+            padding-bottom: 5px !important;
+            display: none;
+        }
+        .bg-short {
+            background: url(https://myhobbycourses.com/sites/all/themes/hobbycourse/css/images/team-bg.jpg);
+            height: 150px;
+            background-size: cover;
+            background-position: center;
+            background-color: rgba(0,0,0,0.5);
+            background-blend-mode: overlay;
+            color: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 100px;
+        }
+      .bg-short h2 {
+    color: #fff !important;
+    margin: 0 !important;
+    font-size: 32px !important;
+    font-weight: 700;
+}
+/*team*/
+/*tutor form*/
+.pop-wrap div#edit-field-i-conduct-session-und > div {
+    display: none;
+}
+.subjectResults form .form-item {
+    margin-bottom: 0;
+}
+.subjectResults label, .subjectResults form#group-session label{
+    font-size: 21px;
+    font-weight: 500;
+    margin-left: 4px;
+}
+.offline-result label{
+    font-size:15px;
+}
+body .offline-result select, body .offline-result input{
+    font-size: 15px !important;
+}
+.pop-wrap div#edit-field-i-conduct-session-und > div:nth-child(2) {
+    display: block;
+    margin-bottom: 0 !important;
+}
+ body.not-logged-in.page-tutor-form  .main-container {
+    padding-top: 0;
+    background-color: #fff;
+    position: relative;
+    background: url(/sites/all/themes/hobbycourse/css/images/online-class.jpg) no-repeat left center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 500px;
+}
+ body.not-logged-in.page-tutor-form section#block-system-main,
+ body.not-logged-in.page-tutor-form .region-content,
+ body.not-logged-in.page-tutor-form .content {
+    background: transparent !important;
+}
+ body.not-logged-in.page-tutor-form  #user-register-form {
+    background: transparent;
+    padding: 20px;
+    max-width: 1125px;
+    border-radius: 15px;
+    margin: 50px auto !important;
+}
+ body.not-logged-in.page-tutor-form div#edit-educatore-register>h3 {
+    font-size: 60px;
+    text-align: center;
+    margin-top: 30px;
+    color: #fff;
+    text-transform: inherit;
+    line-height: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+body.not-logged-in.page-tutor-form #edit-educatore-register h3 + p {
+    color: #fcfcfc;
+    font-weight: 500;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 20px !important;
+    font-weight: lighter;
+}
+body.not-logged-in.page-tutor-form #edit-educatore-register>.row>.col-md-6 .inner_bok {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    background: #ffffff !important;
+    transition: 0.3s;
+    border-radius: 15px;
+    padding: 40px 20px;
+    flex-direction: column-reverse;
+    border: 0;
+}
+body.not-logged-in.page-tutor-form #edit-educatore-register>.row>.col-md-6 .inner_bok:hover {
+    color: #fff;
+    border-color: none;
+}
+
+body.not-logged-in.page-tutor-form #edit-educatore-register .inner_bok p {
+    display: none;
+}
+body.not-logged-in.page-tutor-form #edit-educatore-register .inner_bok button {
+    background: inherit;
+    border: oldlace;
+    font-size: 0;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 5px 15px;
+    border-radius: 5px;
+    width: 100%;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-top: 0;
+}
+.inner_bok button h4{
+    color: #333;
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 1.4;
+    text-transform: capitalize;
+    letter-spacing: 0;
+}
+.inner_bok button h4 small{
+    font-size: 70%;
+    font-weight: normal;
+    color: #b6b4b4;
+    display: block;
+    margin: 2px 0;
+}
+.inner_bok > p{
+    display: none;
+}
+.button-pop {
+    opacity: 1;
+    width: auto;
+    color: #333;
+    border: 1px solid #e4e4e4;
+    transition: all 500ms;
+    padding: 10px 15px;
+    margin-top: 10px;
+    border-radius: 5px;
+    box-shadow: 3px 5px 0 #ccc;
+    background: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    max-width: 250px;
+    margin:20px auto;
+}
+.button-pop:hover{
+    color: #333;
+    box-shadow: 3px 5px 0 #5eb6ad;
+} 
+.hiden{
+    display: none;
+}
+.subject-tutr-form .home-tutr{
+    display: block;
+}
+.online-tutr-form .online-tutr{
+    display: block;
+}
+.form-heading .img-wrap {
+    display: block;
+    width: 80px;
+    height: 80px;
+    margin: 0 auto 15px;
+    background: #fff;
+    padding: 10px;
+    border-radius: 100%;
+    border: 5px solid #f3f3f3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form-heading .img-wrap img{
+    margin: 0;
+    padding: 0;
+}
+body.not-logged-in.page-tutor-form .form-type-radio.form-item-field-i-conduct-session-und.form-item.radio {
+    float: left;
+    width: 100%;
+    margin: 10px 0 0 20px;
+    display: inline;
+    padding: 0 10px;
+}
+.pop-wrap {
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 99999;
+    opacity: 1;
+    display: none;
+    bottom: 0;
+    background: rgba(0,0,0,0.5);
+    padding: 20px;
+}
+body.not-logged-in.page-tutor-form .row.tutor_form {
+    max-width: 600px !important;
+    width: 95%;
+    padding: 20px 30px !important;
+    position: relative;
+    max-height: 94vh;
+    overflow-y: auto;
+}
+body.not-logged-in.page-tutor-form #edit-educatore-register + .tutor_form #edit-field-i-conduct-session-und>div {
+    width: 100%;
+    margin-top: 0;
+    padding-left: 20px;
+}
+body.not-logged-in.page-tutor-form form#user-register-form .form-item.radio input{
+    height: 25px;
+}
+body.not-logged-in.page-tutor-form .main-container:before {
+    display: block;
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: #000;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 0.6;
+}
+.closse-btn {
+    margin: 0;
+    /* background: red; */
+    
+    color: #323232;
+    opacity: 1;
+    border-radius: 100%;
+    font-size: 40px;
+    font-weight: normal;
+    z-index: 55;
+    text-align: center;
+    position: absolute;
+    right: 10px;
+    top: -10px;
+    z-index: 55;
+    cursor: pointer;
+}
+body.not-logged-in.page-tutor-form .form-type-radio.form-item-field-i-conduct-session-und.form-item.radio input{
+    height: 25px !important;
+}
+body.not-logged-in.page-tutor-form form#user-register-form button#edit-submit {
+    width: 100%;
+    color: #fff;
+    background: #fe4a8c;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    margin-top: 20px;
+    height: auto;
+    max-width: 100% !important;
+    border-radius: 5px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.region-content .password-strength > *, .tutor_form .password-strength > *{
+    font-weight: 500 !important;
+}
+body.not-logged-in.page-tutor-form #edit-educatore-register > .row > .col-md-6 {
+    width: auto;
+    min-width: 50%;
+    flex: 0 0 50%;
+}
+/*end of tutor form*/
+
+/*
+Authored By andy - 19th May 2020
+==========================================================*/
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,400;0,500;0,600;0,700;0,900;1,600&display=swap');
+*/
+@font-face {
+  font-family: ElegantIcons;
+  src: url(/sites/all/themes/hobbycourse/css/fonts/ElegantIcons.ttf);
+}
+
+/*new-css*/
+
+.st-img-sec:nth-child(2) span {
+    background: #fff;
+    box-shadow: 0px 0px 10px -5px #999;
+    color: #00a89b;
+}
+.form-type-textfield.form-item-start.form-item.form-group {
+    position: relative;
+}
+.form-type-textfield.form-item-class-date.form-item.form-group {
+    position: relative;
+}
+.bootstrap-datetimepicker-widget {
+    max-width: 300px;
+    overflow: scroll;
+}
+div.image-widget-data {
+    float: left;
+    width: 100%;
+}
+.switch-qualifications > a {
+    border: 1px solid #e6e6e6;
+    border-radius: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+body .qualifications-switch-link.active-switch {
+    border-color: #12d4d2;
+}
+.university-col-1 .form-item-university-area-1-level {
+    width: 96% !important;
+    margin-bottom: 0 !important;
+}
+div.image-widget-data input {
+    float: left;
+    width: 81%;
+}
+div#edit-field-product {
+    border: 1px solid #f1f1f1;
+    background: inherit;
+    margin: 15px;
+    padding: 0;
+}
+div#edit-field-product > div.btn-add-tab-wrapper {
+    display: block;
+    margin-bottom: 15px;
+    background: #00a89b;
+    border-radius: 5px;
+}
+.page-node .calendario-deal .ief-tabs li{
+    margin: 0;
+    text-align: center;
+}
+body s.odd {
+    margin-top: 0px !important;
+}
+.switcher-block {
+    padding: 15px 0 !important;
+    margin: 40px 0 0;
+    border-top: 1px solid #eaf1f1 !important;
+    border-bottom: 1px solid #eaf1f1 !important;
+}
+.website-course-price input {
+    background: url(/sites/all/themes/hobbycourse/img/british-pound.png) !important;
+    background-size: 15px !important;
+    background-position: 10px center !important;
+    background-repeat: no-repeat !important;
+    padding-left: 35px !important;
+}
+.website-course-price input .form-type-textfield {
+    font-size: 0 !important;
+}
+.ief-product-details .field-type-commerce-price .form-item {
+    font-size: 0;
+}
+.activate-course {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.activate-course h2 {
+    margin: 28px 0 15px 0 !important;
+}
+.activate-course .checkbox {
+    margin: 16px 0 36px !important;
+}
+.page-node .calendario-deal .calendario-new-course-wrapper {
+    margin-bottom: -4px;
+}
+div#edit-field-product fieldset {
+    width: 100%;
+}
+.btn-add-tab-wrapper {
+    position: relative;
+    cursor: pointer;
+}
+.btn-add-tab-wrapper.opened-courses:after {
+    content: '\f106';
+    padding: 0px 0 0;
+}
+.grippie {
+    display: none;
+}
+.message-user-picture img {
+    width: 62px;
+    float: left;
+    margin-right: 10px;
+}
+td.privatemsg-list-subject {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.message-user-picture {
+    width: 18%;
+    margin-right: 3%;
+}
+.message-user-info {
+    width: 78%;
+    float: left !important;
+}
+.message-user-picture img {
+    max-width: 65px;
+}
+.user-picture {
+    margin-top: 0 !important;
+}
+.checkbox, .radio {
+    margin-bottom: 43px !important;
+}
+table.privatemsg-list.table>tbody>tr>td {
+    border: none;
+}
+div#privatemsg-list-form button#edit-delete {
+    border: none;
+    padding: 12px 15px;
+    text-transform: uppercase;
+}
+.page-messages-list .col-lg-offset-2 {
+    margin-left: 0;
+}
+select#edit-operation {
+    height: 44px;
+    border: 1px solid #d2d2d2 !important;
+    padding-left: 16px !important;
+}
+#privatemsg-list-form .container-inline .row > div:first-child {
+    padding-left: 0 !important;
+}
+form#privatemsg-list {
+    padding: 0 15px;
+}
+.table-striped>tbody>tr:nth-of-type(odd) {
+    background-color: #ffffff !important;
+}
+.privatemsg-list thead tr {
+    background: whitesmoke;
+}
+table.privatemsg-list {
+    border: 1px solid #dedede;
+}
+table.privatemsg-list tr th {
+    border: none !important;
+}
+th.select-all {
+    padding-left: 10px !important;
+}
+.page-messages td input[type=checkbox] {
+    height: 16px !important;
+    width: 22px !important;
+}
+.select-all input
+{
+    height: 15px;
+    width: 19px;
+}
+.message-user-name a {
+    text-transform: uppercase;
+    font-weight: 700 !important;
+    font-size: 15px !important;
+}
+.message-user-info a {
+    font-weight:500;
+    font-size: 13px;
+}
+small.img-st img {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+    cursor: pointer;
+    display: none;
+}
+td.fc-event-container .fc-day-grid-event {
+    padding: 0px 1px;
+    background: #00a89b !important;
+    border-color: #00a89b !important;
+}
+.st-img-sec span:before {
+    content: '\f0c0';
+    font-family: FontAwesome;
+    margin-right: 15px;
+    font-size: 15px;
+}
+.img-st
+{
+    position: relative;
+}
+.st-img-sec {
+    width: auto;
+    float: left;
+    margin-right: 10px;
+}
+.st-img-sec span {
+    background: #00a89b;
+    color: #fff;
+    padding: 7px 20px;
+    border-radius: 100px;
+    font-size: 13px;
+    display: flex;
+    transition: 0.3s;
+    align-items: center;
+}
+.bg-blue {
+    background: #55b1aa;
+}
+.blockss .row {
+    margin-top: 0 !important;
+}
+.popup-box fieldset#edit-subjects .form-type-checkbox {
+    margin-bottom: 0 !important;
+}
+.pop-box .st-img-sec {
+    display: none;
+}
+.st-img-sec:nth-child(2) span:before {
+    content: '\f03d' !important;
+}
+.st-img-sec img:hover + span {
+    opacity: 1;
+}
+body.page-vendor-sales .order-section .productInfo {
+    color: #fff!important;
+    background: #ff3480!important;
+    text-align: left;
+    font-size: 18px;
+    width: 100%;
+    border-radius: 8px;
+    padding: 10px;
+    padding-right: 80px;
+}
+.page-vendor-sales .order-section.active .productInfo {
+    background: #b2e3e0!important;
+    color: #fff !important;
+}
+.page-vendor-sales .order-section.active .productInfo:after {
+    content: '';
+    background: url('https://myhobbycourses.com/sites/all/themes/hobbycourse/css/images/Icon feather-check-circle.png');
+    display: block;
+    width: 50px;
+    height: 40px;
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    z-index: 9;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: translate(0, -50%);
+}
+.vendorInfo{
+    text-transform: capitalize;
+    font-size: 18px;
+}
+body .vendorInfo span {
+    color: #fff!important;
+}
+.page-vendor-sales .order-section.active .vendorInfo span {
+    color: #fff !important;
+}
+.page-vendor-sales .order-section .productInfo {
+    color: #000!important;
+    background: #f9f9f9!important;
+    transition: 0.3s;
+}
+.order-section .orderinfo {
+    font-size: 25px;
+    font-family: 'Montserrat-SemiBold';
+    text-transform: capitalize;
+    text-align: left;
+    color: #7b7b7b;
+}
+.moreone {
+    display: flex;
+    padding: 0 20px;
+}
+.subjectResults.moreone form.show-all-filter .col-xs-12:nth-child(n+5) {
+    display: block !important;
+}
+.info-name {
+    color: #000 !important;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    background: none !important;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.info-name a{
+    color: #000;
+    font-family: 'Montserrat-Regular';
+    padding: 0 20px;
+    font-size: 18px;
+    font-weight: normal;
+}
+.page-vendor-sales .order-section, .page-vendor-sales .info-section, .billing-section {border-radius: 20px;padding: 18px;display: flex;box-shadow: 0px 0px 40px 0px #e4e4e4;margin-bottom: 35px;width: 100%;}
+.info-section .producttitle {
+    color: #fff;
+    padding: 5px 0 10px;
+}
+.page-vendor-sales .info-section,
+.billing-section{
+    flex-wrap:wrap;
+}
+.bill-flex {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    border-bottom: 1px solid #ececec;
+    padding-bottom: 5px;
+    flex: 100%;
+}
+.bill-flex:last-child {
+    border: none;
+    padding-bottom: 0;
+}
+.top-zoom {
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px 0px #dcdcdc;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.inner-top-zoom a {
+    font-size: 15px;
+    white-space: nowrap;
+    display: block;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    margin-left: 15px;
+}
+
+.inner-top-zoom {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.top-zoom p {
+    line-height: 1.6;
+    font-size: 20px;
+}
+.bill-flex h4 {
+    width: auto;
+    font-size: 18px;
+    text-transform: capitalize;
+    text-align: left;
+    font-family: 'Montserrat-Bold';
+    min-width: 200px;
+    color: #000;
+}
+.page-vendor-sales .quantity-section {
+    border-radius: 15px;
+    border: 1px solid #00a89b;
+    padding: 12px;
+    box-shadow: 0px 0px 40px 0px #e4e4e4;
+}
+.page-vendor-sales .quantity-section>div {
+    margin: 3px;
+    border-color: #e4e4e4;
+    font-size: 19px;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #efefef;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Montserrat-Bold';
+    color: #000;
+    font-size: 18px;
+}
+.page-vendor-sales .quantity-section>div br {
+    display: none;
+}
+.page-vendor-sales .quantity-section>div span {
+    font-size: 20px;
+    margin-top: 0px;
+    display: inline-block;
+    float: right;
+    font-family: 'Montserrat-Regular';
+    font-weight: normal;
+}
+.page-vendor-sales .quantity-section>div.qty-total span {
+    font-weight: 700;
+}
+.page-vendor-sales .quantity-section>div.qty-total {
+    border: none;
+    margin: -3px 0 0 0px;
+}
+.img-rel {
+    max-width: 162px;
+    margin: 0 auto;
+    position: relative;
+}
+body p.dots-all {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    font-size: 0;
+    width: 20px;
+    height: 20px;
+    background: red;
+    border-radius: 100%;
+    border: 2px solid #fff;
+}
+p.dots-all.online-st {
+    background: #94d611 !important;
+}
+.top-fix p.dots-all {
+    right: 0;
+}
+.page-tutors-apply-now div#edit-field-educator-type {
+    display: none;
+}
+.page-tutors-apply-now .form-item-field-i-conduct-session-und {
+    display: none;
+}
+.col-sm-12.schedule-table {
+    padding: 0;
+    width: 95%;
+    margin: 0 auto;
+}
+.page-tutors-apply-now .row.tutor_form {
+    display: block !important;
+}
+.page-tutors-apply-now .inner_bok {
+    display: none;
+}
+div#profile-popup-container {
+    width: 100% !important;
+    max-width: 100% !important;
+}
+.university-col-1 select, .university-col-1 input {
+    border-color: #d4d4d4 !important;
+    border-radius: 5px !important;
+    height: 42px !important;
+}
+.form-type-checkbox.form-item-university-area-1-stillstudying.form-item.checkbox {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0 !important;
+    margin-top: 0 !important;
+}
+.form-type-checkbox.form-item-university-area-1-stillstudying.form-item.checkbox input {
+    margin-right: 10px;
+}
+#qualifications-form .form-submit {
+    width: 100%;
+    max-width: 100%;
+    border-radius: 100px;
+    text-transform: uppercase;
+    font-size: 17px;
+    padding: 10px;
+    letter-spacing: 1px;
+}
+form#qualifications-edit-form--2 {
+    padding-bottom: 20px !important;
+}
+div#edit-main-subjects a {
+    border-radius: 5px;
+    padding: 5px;
+    margin: 2px;
+    font-size: 14px;
+}
+.popup-box div#edit-main-subjects, .popup-box .switch-qualifications {
+    flex-wrap: wrap;
+}
+.desktop_ser {
+    clear: both;
+}
+.desktop_ser h3 {
+    margin-bottom: 14px;
+    font-weight: 500;
+    clear: both;
+    line-height: 1.4;
+    font-size: 22px;
+    margin-bottom: 8px;
+}
+.desktop_ser h3:empty {
+    display: none;
+}
+.subjectResults .hour_tu_price a,
+.tutor_resu .hour_tu_price a{
+    font-family: 'Montserrat-SemiBold';
+    text-transform: uppercase;
+    border: none;
+    border-radius: 5px;
+    line-height: 50px;
+    padding: 1px 15px;
+    display: block;
+    background: #00a89b !important;
+    color: #fff !important;
+    border: none;
+    font-size: 17px;
+    margin-top: 0px;
+    transition: all 500ms ease;
+    text-align: center;
+}
+.subjectResults .turor_resu {
+    padding: 0;
+}
+.subjectResults form#front-page-search-hour {
+    margin: 30px 0;
+    border: none;
+    width: 100%;
+    padding: 0;
+    margin-bottom: 0;
+}
+.subjectResults .form-control {
+    cursor: pointer !important;
+    text-align: center !important;
+    border: 1px solid rgb(221, 221, 221) !important;
+    background-color: rgb(255, 255, 255) !important;
+    outline: none !important;
+    margin: 0px !important;
+    color: rgb(34, 34, 34) !important;
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif !important;
+    position: relative !important;
+    transition-property: -ms-transform, -webkit-transform, transform, background-color, border-color !important;
+    transition-duration: 0.15s !important;
+    transition-timing-function: ease-in-out !important;
+    padding: 10px 16px !important;
+    border-radius: 30px !important;
+    font-size: 10px !important;
+    line-height: 16px !important;
+    width: 100% !important;
+}
+.subjectResults form#group-session .form-control{
+    font-size:18px !important;
+}
+.subjectResults form > div > div, .offline-result .subjectResults form#front-page-search-hour.offline_option_selected div{
+    position: static;
+    padding-left: 0;
+    flex: 0 0 24%;
+    padding: 0;
+    margin: 0 0.5% 1%;
+}
+.form-type-textfield.form-item-tutor-name {
+    display: none;
+}
+
+.search-main form > div > div:nth-child(10), .search-main form > div > div:nth-child(12),
+.search-main form > div > div:nth-child(4)
+{
+    display: none;
+}
+.subjectResults.moreone {
+    padding: 0;
+}
+.online-result {
+    padding: 0;
+}
+
+
+.search-main .form-item-country select option {
+    display: none;
+}
+.search-main .form-item-country select option[value="GB"],
+.search-main .form-item-country select option[value="All"]{
+    display:block;
+}
+.subjectResults form#front-page-search-hour.online_option_selected div,
+.offline-result form#front-page-search-hour div{
+    flex: 0 0 15.6%;
+    margin: 0 0.5% 1%;
+    position: relative;
+}
+.subjectResults form#front-page-search-hour div:nth-child(9), .subjectResults form#front-page-search-hour div:nth-child(10), body .offline-result .subjectResults form#front-page-search-hour.online_option_selected div:nth-child(9), body .offline-result .subjectResults form#front-page-search-hour.online_option_selected div:nth-child(10){
+    flex: 0 0 32% !important;
+}
+.subjectResults form#front-page-search-hour.offline_option_selected div:nth-child(10){
+    flex: 0 0 20% !important;
+}
+.subjectResults form#front-page-search-hour.online_option_selected div:nth-child(9), .subjectResults form#front-page-search-hour.online_option_selected div:nth-child(10),
+.offline-result .subjectResults form#front-page-search-hour div:nth-child(9), .offline-result .subjectResults form#front-page-search-hour div:nth-child(10){
+    flex: 0 0 21%;
+}
+.subjectResults form > div {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+body .subjectResults form.online_option_selected .col-xs-12:last-child{
+    align-items:flex-start;
+    margin-top: 8px !important;
+}
+body .subjectResults form .col-xs-12:last-child, body .subjectResults form#group-session > div > div:nth-child(6) {
+    display: flex !important;
+    justify-content: center;
+    top: 23px;
+    width: auto;
+    flex: 21% !important;
+    align-items: flex-end;
+}
+button.load-filter.less-filter {
+    font-size: 0 !important;
+}
+button.load-filter.less-filter:after {
+    content: 'Less Filter';
+    font-size: 14px !important;
+}
+.banner-search {
+    display: none;
+}
+.subjectResults form.show-all-filter .col-xs-12:nth-child(n+6) {
+    display: block !important;
+}
+button.load-filter {
+    background: #38acb1;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+}
+.page-tutors-apply-now div#edit-field-i-conduct-session-und > div {
+    display: none;
+}
+.page-tutors-apply-now div#edit-field-i-conduct-session-und > div:nth-child(2) {
+    display: block;
+}
+body #rates_subjects .row.form-item-dis.bdr-bx.cust-fl {
+    display: flex;
+    margin-top: 20px !important;
+    padding: 10px 37px !important;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.row.form-item-dis.bdr-bx.cust-fl #edit-qualification-info {
+    border: none;
+    display: none;
+}
+body #tutor-hour-subjects .row.form-item-dis.bdr-bx.cust-fl > div {
+    width: auto;
+}
+form#user-profile-form .panel.full-page .row:first-child .col-xs-12.fulll {
+    width: 100%;
+}
+
+.pay-d p {
+    font-size: 18px;
+    font-weight: 500;
+}
+.pay-d div {
+    box-shadow: 0px 2px 10px -9px #000;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.pay-d h3 {
+    font-size: 22px;
+    font-weight: 700;
+    margin: 0 0 12px 0;
+    color: #61b7b0;
+    text-transform: uppercase;
+}
+.pay-d h1 {
+    color: #ff3480;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+}
+.img-wrp, .img-wrp img
+{
+    margin:20px auto 20px !important;
+}
+.course-box-wrap {
+    box-shadow: 0px 12px 30px -20px #a4a4a4;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 0;
+}
+.col-xs-12 .col-sm-12 .user-profile-title {
+    border: none !important;
+    padding: 8px 15px !important;
+    font-size: 18px !important;
+    display: flex !important;
+    justify-content: center !important;
+    background: whitesmoke;
+    color: #ff3480;
+    border-radius: 100px !important;
+}
+.page-vendor-profile .course-short-data {
+    display: none;
+}
+
+button.load-more-course {
+    background: #00a89b;
+    border: none;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 100px;
+    padding: 7px 20px;
+    margin-left: 10px;
+}
+.show-less-course {
+    font-size: 0 !important;
+}
+.show-less-course:after {
+    content: 'Show Less';
+    font-size: 15px;
+}
+.show-more-course {
+    display: block !important;
+}
+div#main-vendor .view-content {
+    display: flex;
+    flex-wrap: wrap;
+}
+div#main-vendor .view-content > div .course-area {
+    width: 100%;
+}
+div#main-vendor .view-content > div {
+    width: 33.33%;
+}
+div#main-vendor .view-content > div:nth-child(n+4) {
+    display: none;
+}
+.page-vendor-profile .call, .page-vendor-profile .more {
+    line-height: 42px;
+}
+.page-vendor-profile .course-box {
+    box-shadow: 0 0 10px -8px #000;
+    border: none;
+}
+.page-vendor-profile .seven-cols .one-day-timing div.one-day {
+    width: 30%;
+    font-size: 13px;
+}
+.page-vendor-profile .seven-cols .one-day-timing div {
+    color: #000;
+    font-weight: 500;
+    padding: 0;
+    text-align: left;
+    width: auto;
+}
+.page-vendor-profile .course-area .button-area {
+    background: #fff;
+    padding-bottom: 0;
+}
+.page-vendor-profile .call:before, .page-vendor-profile .more:before {
+    width: 18px;
+    height: 15px;
+}
+.page-vendor-profile .seven-cols .one-day-timing {
+    padding: 0 15px;
+    align-items: center;
+}
+.page-vendor-profile .course-area .row.overlay-bottom-text div:first-child h6 {
+    font-size: 15px !important;
+}
+.page-vendor-profile  .course-area .row.overlay-bottom-text div:last-child p {
+    font-size: 11px;
+}
+.page-vendor-profile .seven-cols .one-day-timing div.one-time div:first-child {
+    margin-right: 20px;
+}
+.page-vendor-profile .seven-cols {
+    flex-wrap: wrap;
+}
+.page-vendor-profile .course-box .img-overlay, .page-vendor-profile .course-box .img-overlay>img {
+    min-height: 205px;
+    object-fit: cover;
+    height: 205px;
+}
+.page-vendor-profile .course-area .row.overlay-bottom-text div:last-child p {
+    white-space: normal;
+}
+.file-widget.form-managed-file.clearfix.input-group input {
+    background: #fff !important;
+    border: 1px solid #e6e6e6 !important;
+    width: 80% !important;
+    margin-right: 4%;
+}
+.file-widget.form-managed-file.clearfix.input-group span.input-group-btn {
+    width: 16% !important;
+}
+.file-widget.form-managed-file.clearfix.input-group span.input-group-btn button {
+    margin-bottom: 0;
+    border-radius: 10px !important;
+    width: 100%;
+    display: block;
+    margin: 0 !important;
+    text-align: center !important;
+    padding: 0 !important;
+    height: 44px;
+}
+p.help-block {
+    font-size: 11px !important;
+    margin-top: 10px !important;
+}
+.file-widget.form-managed-file.clearfix.input-group {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+html .page-hobby-batch-categories .main-container .abd, html .page-hourly-categories .main-container .abd {
+    padding: 15px;
+    background: #fff;
+    border-radius: 5px;
+}
+.page-hourly-categories h3 {
+    font-weight: 700;
+    font-size: 20px;
+}
+section#block-block-7 {
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+.view-hobby-batch-categories {
+    padding: 0 !important;
+}
+.field-name-field-suitable-for #edit-field-suitable-for-und, .field-name-field-money-back-guarantee #edit-field-money-back-guarantee-und {
+    box-shadow: none !important;
+    border-radius: 5px !important;
+    border-color: #d1d0d0;
+    background: #fbfbfb;
+}
+body.page-node-add-deal .field-name-field-suitable-for #edit-field-suitable-for-und .form-type-radio ,
+body.page-node-edit .field-name-field-suitable-for #edit-field-suitable-for-und .form-type-radio {
+    padding: 5px;
+    margin-bottom: 0 !important;
+}
+.switcher-block .checkbox-slider--c-weight.checkbox-slider-md input+span:before {
+    top: 0px;
+}
+.switcher-block .checkbox-slider--c-weight input:checked+span:before, .switcher-block .checkbox-slider--c-weight input+span:before {
+    height: 25px!important;
+    border-radius: 100px;
+}
+.switcher-block .checkbox-slider--c-weight input+span:after {
+    background: #fff;
+    border-color: #fff;
+    width: 20px !important;
+    height: 20px;
+    top: 2.4px;
+    left: 3px;
+}
+.switcher-block .checkbox-slider--c-weight input:checked+span::after {
+    background: #ffffff;
+    border-color: #ffffff;
+    left: -3px;
+    top: 2px;
+}
+.switcher-block .checkbox-slider--c-weight input:checked+span:before {
+    background: #fe3480;
+    border-color: #fe3480;
+}
+#edit-field-amenities #edit-field-amenities-und {
+    border-radius: 5px;
+}
+body .field-name-field-amenities .form-type-checkbox label span {
+    border-radius: 5px !important;
+    width: 20px !important;
+    height: 20px !important;
+    top: 6px !important;
+    border-width: 2px !important;
+}
+form.node-deal-form.calendario-deal .field-name-field-certification-1 td.field-multiple-drag a:before, form.node-deal-form.calendario-deal .field-name-field-youtube-video td.field-multiple-drag a:before {
+    background: inherit;
+    color: #000;
+}
+.page-node .calendario-deal .field-name-field-product {
+    border: none;
+}
+.page-node .calendario-deal .field-name-field-product>div:first-child {
+    background: 0 0;
+    border: none;
+    padding: 10px 20px;
+}
+.page-node .calendario-deal .calendario-new-course-wrapper .panel-body {
+    border: none !important;
+}
+.fc-basic-view .fc-body .fc-row {
+    min-height: 0 !important;
+    height: 56px !important;
+}
+.page-vendor-profile .fc-basic-view .fc-body .fc-row{
+    height: 54px !important;
+}
+.page-vendor-profile .fc-basic-view .fc-body .fc-row td{
+    padding:0 !important; 
+}
+#edit-field-suitable-for-und .form-type-radio {
+    background-size: 30px !important;
+}
+.switch-up {
+    text-align: left;
+}
+.switch-up > div {
+    padding-left: 0;
+}
+.node-deal-form .image-widget.form-managed-file button {
+    margin-left: 10px;
+}
+input#edit-field-deal-image-und-0-upload--2:before {
+    content: 'choose file';
+    width: 100%;
+    height: 100%;
+    background: #89ccca;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 15px;
+}
+input#edit-field-deal-image-und-0-upload--2 {
+    position: relative;
+    border: none;
+}
+form.node-deal-form .location .panel-body {
+    background: #fff !important;
+}
+.img-overlay:before {
+    background: none;
+}
+.view-new-node-listing-views .views-exposed-form .views-exposed-widget select.form-control {
+    border-radius: 5px;
+    height: 42px;
+    font-size: 13px !important;
+}
+.view-new-node-listing-views .views-exposed-form .views-exposed-widget.views-submit-button button {
+    max-width: 200px;
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+    height: 42px;
+}
+.page-venues .single-location .row,
+.page-tutors .single-location .row{
+    box-shadow: 0px 0px 10px -7px #000;
+    margin: 6px;
+    border-radius: 5px;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+}
+.lock-img, .lock-img img {
+    height: 100% !important;
+    object-fit: cover;
+}
+.lock-content p {
+    text-align: justify;
+    color: #646464;
+    font-family: roboto,sans-serif;
+    line-height: 1.5;
+    letter-spacing: 0;
+}
+div#map-tutor
+{
+    display: none;
+}
+.page-venues .single-location .row > .col-sm-5,
+.page-tutors .single-location .row > .col-sm-5 {
+    padding-left: 0;
+    padding-right: 0px;
+}
+.location-tab a.read-more-btn {
+    margin-bottom: 8px;
+    text-align: center;
+}
+.page-venues section#block-system-main,
+.page-tutors section#block-system-main {
+    margin-bottom: 60px;
+}
+div#map.venues-map {
+    display: none;
+}
+.lock-head h1 {
+    font-size: 30px;
+    font-weight: normal;
+}
+.lock-content a {
+    padding: 10px 10px;
+}
+.view-new-node-listing-views .views-exposed-form .views-exposed-widget .form-item-sort-by select.form-control {
+    height: 42px !important;
+}
+section#top-trending-interests {
+    background: #fff;
+    box-shadow: none;
+}
+.seven-cols {
+    background: #fff;
+}
+.row.filters-pager > div {
+    width: 100%;
+}
+select#edit-field-deal-address-locality {
+    width: 100% !important;
+}
+.course-box .seven-cols {
+    padding: 0px !important;
+    margin-top: 0 !important;
+    justify-content: flex-start;
+}
+.one-time > div {
+    color: #565656;
+    flex: 1;
+    border-radius: 3px;
+    padding: 3px;
+    font-weight: 500;
+    font-size: 13px;
+}
+.not-logged-in .course-tst {
+    position: fixed !important;
+    z-index: 99999 !important;
+    background: #ff3480;
+}
+.not-logged-in footer {
+    padding-bottom: 40px !important;
+}
+.bottom-footer p {
+    text-align: center;
+    margin-top: 50px;
+    color: #fff;
+    border-top: 1px solid #616161;
+    padding-top: 50px;
+}
+.info-window-search img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    object-position: top;
+    margin-bottom: 10px;
+}
+.info-window-search {
+    padding: 0;
+    border: none;
+    max-width: 275px;
+}
+.pop-box {
+    clear: both;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 10px 15px;
+    align-items: flex-start;
+}
+.pop-box>* {
+    flex: 1;
+    text-align: left;
+    margin: 0 5px;
+}
+span.bg-f {
+    font-size: 24px;
+    color: #00a89b;
+    font-weight: 600;
+}
+.pop-box p {
+    color: #00a89b;
+    font-size: 16px;
+    position: relative;
+    padding-bottom: 0;
+}
+.mp-icon {
+    position: relative;
+    padding-left: 21px;
+    display: block;
+    letter-spacing: 0;
+}
+.pop-box p:nth-child(3) {
+    font-size: 12px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+}
+.pop-box p:nth-child(3):before {
+    content: '';
+    background: url(http://myhobbycourses.com/sites/all/themes/hobbycourse/images/map-icon.png);
+    width: 25px;
+    height: 26px;
+    background-size: contain;
+    display: inline-block;
+    background-repeat: no-repeat;
+    margin-right: 6px;
+}
+.norm-bx p {
+    font-size: 15px !important;
+    width: 50% !important;
+    color: #000 !important;
+}
+.gm-style-iw.gm-style-iw-c button {
+    background: #fff !important;
+    opacity: 1;
+    right: 0 !important;
+    top: 0 !important;
+    width: 24px !important;
+    height: 22px !important;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 0 0px 9px;
+}
+.info-window-search a {
+    float: none;
+    text-transform: lowercase;
+    margin-bottom: 0;
+    font-size: 16px;
+}
+.subjectResults form .form-submit{
+    cursor: pointer !important;
+    text-align: center !important;
+    border: 1px solid rgb(221,221,221) !important;
+    background-color: rgb(255,255,255) !important;
+    outline: none !important;
+    margin: 0px !important;
+    color: rgb(34,34,34) !important;
+    font-family: circular,-apple-system,BlinkMacSystemFont,Roboto,"Helvetica Neue",sans-serif !important;
+    position: relative !important;
+    transition-property: -ms-transform,-webkit-transform,transform,background-color,border-color !important;
+    transition-duration: 0.15s !important;
+    transition-timing-function: ease-in-out !important;
+    padding: 10px 16px !important;
+    border-radius: 30px !important;
+    font-size: 12px !important;
+    line-height: 16px !important;
+}
+span.close-course {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translate(0,-50%);
+    color: #ff3480;
+    font-size: 18px;
+    font-weight: 500;
+    background: #fff;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    width: 24px;
+    cursor: pointer;
+}
+.logged-in span.close-course
+{
+    display: none !important;
+}
+form#user-login > div .hybridauth-widget-wrapper {
+    display: none;
+}
+.logged-in .course-tst {
+    display: none;
+}
+#qualifications-form, #tutor-address-form-hour, #qualifications-form_edit_new {
+    overflow-x: scroll;
+}
+.popup-inner .submit a {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.user-edit_bar {
+    display: none;
+}
+p.pass {
+    flex-basis: 100% !important;
+    text-align: left !important;
+}
+body.not-logged-in.page-user .region-content .form-submit {
+    height: 42px !important;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+.page-tutor section#block-system-main,
+.page-student section#block-system-main {
+    margin: 50px 0;
+}
+
+.our-mission .inner-padding div:last-child {
+    font-family: Montserrat !important;
+    text-transform: lowercase !important;
+    font-size: 22px !important;
+}
+.about-us p {
+    color: #000;
+    font-size: 17px;
+    font-weight: normal;
+}
+.about-us-additional ul li h3 {
+    font-family: Montserrat;
+    color: #000;
+}
+.about-us-additional ul li p {
+    color: #868686;
+    font-family: Montserrat;
+    font-size: 15px;
+}
+
+.page-node-2024 .main-container .field-name-body h3 {
+    font-size: 28px;
+    margin-bottom: 5px;
+}
+.page-node-2024 .main-container .field-name-body h4 {
+    font-size: 15px;
+    margin-bottom: 18px;
+}
+.inner-padding {
+    padding: 0 !important;
+}
+.greeting-block h1 {
+    font-size: 30px !important;
+    letter-spacing: 0;
+    margin-bottom: 2px !important;
+    text-align: left;
+    font-weight: 600;
+}
+.greeting-block h1+div {
+    font-size: 22px !important;
+    text-align: left;
+    padding-bottom: 15px;
+}
+.greeting-block p {
+    font-size: 18px;
+    font-weight: 500;
+    color: #464646;
+    line-height: 1.4;
+    letter-spacing: 0;
+}
+.greeting-block-more {
+    background: none;
+}
+.greeting-block-more h2 {
+    margin-bottom: 20px;
+    color: #fe3480;
+    font-family: Montserrat;
+    font-size: 30px !important;
+    font-weight: 600;
+    letter-spacing: 0;
+    margin-bottom: 15px !important;
+}
+.greeting-block-more h2+div {
+    color: #353535;
+    letter-spacing: 0;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.4;
+}
+.general-info-hw {
+    background: none;
+}
+ul.hw-list {
+    padding-left: 0;
+}
+ul.hw-list li, .hw-question p, .hw-blank p, .terms-info p,
+.container_area p, .about-us .greeting-block h2+div,
+.blogDetailDescription p{
+    font-family: Montserrat;
+    color: #000;
+    font-size: 18px;
+    font-weight: 500;
+    padding-bottom: 0;
+    line-height: 1.5;
+    letter-spacing: 0;
+    text-align: left;
+}
+.page-node-2024 .main-container .field-name-body p {
+    font-family: Montserrat;
+    color: #000;
+    font-size: 18px;
+    font-weight: 500;
+    padding-bottom: 0;
+    line-height: 1.5;
+    letter-spacing: 0;
+}
+.about-us p {
+    color: #000;
+    font-size: 18px;
+    font-weight: normal;
+    font-family: Montserrat;
+    letter-spacing: 0;
+    line-height: 1.4;
+    font-weight: 500;
+}
+.about-us .greeting-block h2+div
+{
+    text-transform: lowercase;
+    font-size: 18px;
+}
+.about-us-bottom-info .text-color {
+    text-align: left;
+    margin: 20px 0 !important;
+}
+.hw-list li::before {
+    top: 18px;
+    width: 10px;
+    height: 10px;
+}
+.hw-list-title {
+    font-size: 30px;
+    padding-bottom: 4px;
+    font-weight: 600;
+}
+.hw-list-title+p, .hw-list {
+    font-size: 18px;
+    color: #000;
+    line-height: 1.4;
+    letter-spacing: 0;
+}
+.hw-blank {
+    padding: 0;
+}
+.hw-blank>div {
+    padding: 10px 35px !important;
+    box-shadow: 0 0 15px -10px #bcc3c3;
+}
+.hw-blank h2 {
+    font-family: Montserrat;
+    font-weight: 500;
+}
+.hw-question h2 {
+    color: #fe3480;
+    font-size: 32px !important;
+    font-weight: 600;
+    margin-top: 30px;
+}
+.greeting-block-more {
+    padding: 0;
+}
+.hw-educator .greeting-block-more {
+    background: none;
+}
+.hw-educator .greeting-block h1 {
+    font-weight: 600;
+    font-size: 30px !important;
+    color: #fe3480;
+}
+.hw-educator .greeting-block h1+div {
+    color: #89ccca;
+    font-weight: 500;
+    font-size: 22px !important;
+}
+.hw-educator .greeting-block p {
+    font-weight: 500;
+    font-family: Montserrat;
+}
+p.terms-info-alert {
+    color: #89ccca;
+    margin-bottom: 20px;
+    font-size: 23px;
+    font-weight: 500;
+}
+.terms-info-alert + p {
+    text-transform: lowercase;
+}
+h3.terms-sub-title {
+    font-size: 30px;
+    font-weight: 600;
+}
+.list_para_title {
+    font-size: 30px !important;
+    font-weight: 600;
+    margin-bottom: 25px;
+    margin-top: 30px !important;
+}
+.terms-info ul li {
+    padding-left: 30px;
+    font-family: Montserrat;
+    color: #000;
+    font-size: 18px;
+    font-weight: 500;
+    padding-bottom: 0;
+    line-height: 1.5;
+    letter-spacing: 0;
+    margin-bottom: 10px;
+    position: relative;
+    list-style-type: none;
+}
+.terms-info ul li:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 9px;
+    left: 0;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #00a89b;
+    vertical-align: middle;
+}
+.terms-info ul {
+    padding-left: 0;
+}
+.terms-bg-color, .terms-bg-color2 {
+    padding: 25px !important;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+.sub-title-inner {
+    color: #00a89b;
+    font-size: 18px;
+    padding-left: 0;
+}
+.terms-info .col-xs-12 {
+    padding: 0 20px;
+}
+.page-node-348 h2.header_title_page.text_center {
+    margin-bottom: 0;
+}
+.page-node-348 h5.header_title_page.text_center {
+    margin-top: 8px;
+    color: #89ccca;
+    font-weight: 500;
+    font-size: 22px;
+    margin-bottom: 25px;
+}
+.container_area p a {
+    color: #89ccca;
+    text-transform: lowercase;
+}
+p.list_para_title {
+    color: #ff3480 !important;
+    font-size: 30px !important;
+    font-weight: 600 !important;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+.container_area {
+    width: 100%;
+    max-width: 1170px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.para_section b {
+    padding-right: 0;
+    color: #89ccca;
+}
+.cancellation .page-title {
+    margin: 0;
+    padding-bottom: 30px;
+    font-size: 30px;
+    color: #fe488c;
+    font-weight: 600;
+}
+.cancellation p, .cancellation .panel ul li{
+    font-family: Montserrat;
+    color: #000;
+    font-size: 18px !important;
+    padding-bottom: 0;
+    line-height: 1.5;
+    letter-spacing: 0;
+    font-weight: 500 !important;
+}
+.cancellation .panel ul li
+{
+    margin-bottom: 8px;
+}
+.cancellation .panel h4 {
+    font-size: 23px;
+    color: #ff4a8d;
+}
+.cancellation .buttons .button-wrapper {
+    box-shadow: 0px 0px 10px -7px #000;
+    border-radius: 10px;
+}
+.cancellation .buttons .button-wrapper h1.button-title {
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.cancellation .panel .rules {
+    background-color: #f6f6f6;
+    padding: 20px 45px;
+    border-radius: 5px;
+}
+.back-btn {
+   background: #1d1d1c;
+    color: #fff;
+    text-align: center;
+    position: fixed;
+    bottom: 20px;
+    left: 15px;
+    border-radius: 100px;
+    width: 70px;
+    height: 70px;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 16px;
+    display: none;
+}
+.page-node-1679 .field.field-name-body.field-type-text-with-summary h2 {
+    margin-bottom: 8px;
+}
+.about-us-additional li {
+    padding: 30px;
+    text-align: left !important;
+}
+.about-us p strong {
+    font-weight: 600;
+}
+.about-us p em {
+    font-style: normal;
+}
+form#user-profile-form .panel.full-page .row:first-child .col-xs-12 {
+    text-align: center;
+}
+h4.no_live {
+    border-radius: 5px;
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    margin: 15px auto !important;
+}
+body.page-user .region-content form .form-title {
+    margin-bottom: 10px !important;
+}
+p.deal-form-error.for-mobile {
+    height: 24px;
+    background: none;
+    border: none;
+    margin-top: 6px !important;
+    text-align: left;
+    padding-left: 0;
+}
+.role-vendor .bdr-bx .user-profile-item.price-hour:before {
+    margin-right: 5px;
+}
+button#add_hour_rate {
+    background: none !important;
+    box-shadow: none;
+    color: #000;
+    border-bottom: 1px solid #000;
+    border-radius: 0;
+    padding: 0 0 6px 0;
+    font-weight: 500;
+}
+.modal-body button {
+    box-shadow: none !important;
+    padding: 0 !important;
+    height: 50px !important;
+    max-width: 113px;
+    font-size: 19px !important;
+}
+div#edit-field-hour-product-und-form-commerce-price {
+    width: 100%;
+    margin-bottom: 0;
+}
+div#edit-subjects-info .subject-info, #edit-qualification-info {
+    text-align: left;
+}
+.page-hour-schedule div#schedule-edit-container {
+    max-width: 100% !important;
+}
+.fc-scroller.fc-day-grid-container {
+    height: auto !important;
+}
+h4.go_live {
+    font-size: 16px;
+    text-align: center;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    margin-top: 16px !important;
+}
+.hobby-details .tablesorter tbody .table-button {
+    font-size: 10px !important;
+    border: none !important;
+}
+table.views-table img {
+    max-height: 75px;
+    border-radius: 0 !important;
+}
+section#block-block-9 h1 {
+    font-size: 40px;
+    text-transform: capitalize;
+    color: #ff3480;
+    margin-top: 0;
+}
+section#block-block-9 {
+    text-align: center;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 10px -9px #000;
+    margin-bottom: -22px;
+}
+.view-filters input#edit-title {
+    height: 42px;
+    border-radius: 10px;
+    border-color: #dedede;
+}
+.view-filters .views-exposed-widgets {
+    margin-bottom: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    box-shadow: 0px 0px 10px -10px #000;
+    padding: 30px 40px 35px;
+    border-radius: 15px;
+    background: #fff;
+    border: 1px solid #ececec;
+}
+.page-blog .view-filters .views-exposed-widget {
+    padding-top: 0;
+}
+.view-filters .views-exposed-widget.views-submit-button button {
+    height: 42px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    background: #4bafb1;
+}
+.page-blog .view-filters .views-exposed-widgets div#edit-title-wrapper {
+    padding-top: 0;
+    width: auto;
+}
+section#block-block-9 p {
+    color: #23a8b3;
+    font-size: 16px;
+    max-width: 430px;
+    line-height: 1.2;
+}
+.view-filters .views-exposed-widget {
+    width: 20%;
+}
+.page-blog .view-filters {
+    height: auto;
+    padding-bottom: 1px;
+    margin-bottom: 0;
+    margin-top: 23px;
+}
+div#inner-profile-popup-container > div {
+    font-size: 12px;
+    letter-spacing: 0;
+    margin-bottom: 10px;
+}
+section#are-educator {
+    display: none;
+}
+#commerce-checkout-form-checkout fieldset.customer_profile_billing .panel-body {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+#commerce-checkout-form-checkout fieldset.customer_profile_billing .panel-body > div {
+    padding: 0;
+    border: none !important;
+}
+form#commerce-checkout-form-checkout fieldset#edit-customer-profile-billing {
+    border: none !important;
+}
+#edit-customer-profile-billing-commerce-customer-address-und-0 p {
+    margin-top: -54px !important;
+}
+fieldset#edit-account label {
+    margin-right: 10px;
+}
+fieldset#edit-account .form-type-item {
+    font-family: 'Montserrat-SemiBold';
+    font-size:15px !important;
+    font-weight: normal;
+}
+li.icon-nav.cart_count span, .messages_count a span {
+    background: #ff3480 !important;
+    position: absolute;
+    top: -9px;
+    width: 18px;
+    height: 18px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: -8px;
+    color: #fff;
+    font-size: 11px;
+}
+.overlay-message p a {
+    font-size: 15px;
+}
+.overlay-message p {
+    text-align: left;
+    white-space: normal;
+    word-break: break-word;
+}
+.overlay-message h3 {
+    text-align: left;
+}
+.overlay-message {
+    padding: 30px;
+    border-radius: 5px;
+    max-width: 540px;
+}
+.page-node-add .calendario-deal .form-control {
+    font-size: 16px!important;
+    font-weight: 500;
+}
+.page-node .calendario-deal label, form.node-deal-form label {
+    color: #000 !important;
+    font-size: 16px !important;
+}
+.page-node .field-name-field-age-group label{
+    width:100%;
+}
+div#edit-field-suitable-for-und label {
+    font-weight: 400;
+    font-size: 16px !important;
+    color: #333333 !important;
+    padding: 0;
+}
+div#edit-field-suitable-for-und > div {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+div#edit-field-suitable-for-und > div input {
+    margin-top: 0 !important;
+    margin-right: 10px;
+    width: 20px;
+}
+.flag-usefull {
+    padding-bottom: 0;
+}
+.comment-body {
+    margin-top: 0;
+}
+.vendor-tutor-image img {
+    height: 100px;
+    width: 100px;
+}
+div#main-vendor .our-tutors .col-sm-3, div#main-vendor .our-locations-venue .col-sm-3 {
+    padding-bottom: 0 !important;
+}
+div#travelPolicy .bg-box-gray{
+    padding: 21px 30px !important;
+}
+.hour-tutor div#travelPolicy .bg-box-gray{
+    padding: 0px !important;
+}
+.hobby-details .details-navigation-menu ul li.active a {
+    background: #ff3480;
+    border-radius: 10px;
+    border: none;
+    color: #fff !important;
+}
+.section-wrap.top_profile {
+    display: flex;
+}
+.hobby-details .details-navigation-menu ul {
+    background: #f3f3f3;
+    border-radius: 10px;
+    padding: 0px !important;
+    border: none !important;
+    overflow: hidden;
+    margin-top: 20px;
+}
+.hobby-details .details-navigation-menu ul a {
+    padding: 0 15px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    color: #000;
+    text-transform: capitalize;
+    min-width: 110px;
+    justify-content: center;
+    font-size: 18px;
+}
+.hobby-details .details-navigation-menu ul li a:hover {
+    color: #ff3480;
+    border: none;
+}
+.hobby-details .course-general {
+    padding-bottom: 0;
+}
+.icon-info img {
+    height: 35px;
+    width: 35px;
+    z-index: 99;
+}
+.hobby-details .course-general-details .icon-info p,.hobby-details .course-general-details .icon-info div {
+    color: #000 !important;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+.course-general-details.user-main-details .txt-right {
+    justify-content: flex-start;
+}
+.course-general-details.user-main-details .txt-right span > div:first-child {
+    margin: 5px 5px 5px 0px !important;
+}
+div#about-course-expand p {
+    letter-spacing: 0;
+}
+div#book {
+    padding: 0;
+    height: auto;
+    border: none;
+    margin: 30px 0;
+}
+.book-course-button a button {
+    border-radius: 100px !important;
+}
+div#amenities .row > div {
+    width: auto;
+}
+.review {
+    background: #fdfdfd;
+    padding: 15px !important;
+    margin-top: 20px;
+    border: 1px solid #ebe9e9;
+    border-radius: 5px;
+}
+.review .horizontal-separator {
+    display: none;
+}
+.review p {
+    color: #000;
+    font-family: helvetica neue,Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+    text-transform: lowercase;
+    letter-spacing: 1px;
+}
+body.page-node-2101 .main-container {
+    padding-top: 0 !important;
+}
+.review-content {
+    border-top: 1px solid #e4e4e4;
+    padding-bottom: 0 !important;
+    margin-top: 20px;
+    padding: 10px 0 0 0 !important;
+}
+.Respunse-box i {
+    font-style: normal;
+}
+.login-time {
+    background: inherit;
+    border-radius: 10px;
+}
+ul.course-category li a:before
+{
+    display: none;
+}
+div#stop-side {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 7px;
+}
+.hobby-details .similar-courses .course-wrapper .similar-img {
+    margin-bottom: 20px;
+}
+.hobby-details {
+    margin-bottom: 50px;
+}
+.additional-info {
+    margin-top: 40px !important;
+}
+.hobby-details p {
+    letter-spacing: 0;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #7E7E7E;
+    font-weight: 500;
+}
+.rating.colpadding {
+    padding-left: 0;
+}
+.hobby-details .course-general-details .icon-info li {
+    width: auto;
+    flex: auto;
+    float: none;
+    cursor: pointer;
+    min-width: 130px;
+    max-width: 175px;
+}
+.hobby-details .course-general-details .icon-info {
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    justify-content: flex-start;
+}
+section#top-trending-interests .images-grid .image-container a image-caption {
+    display: block !important;
+    position: relative !important;
+}
+.image-caption h3 {
+    color: #ff3480 !important;
+}
+.image-caption h4 {
+    color: #000;
+    font-weight: 600 !important;
+    font-size: 13px !important;
+    padding-top: 0 !important;
+    display: none;
+}
+section#top-trending-interests .images-grid .image-container img {
+    max-width: 75%;
+    height: auto;
+    margin-bottom: 15px;
+}
+section#top-trending-interests .images-grid .image-container a:after {
+   display: none !important;
+}
+section#top-trending-interests .images-grid .image-container:hover  img
+{
+    transform: scale(0.8) !important;
+}
+.main-vendor-page .text-right {
+    text-align: center;
+    display: none;
+}
+nav#details-navigation-menu {
+    position: relative !important;
+}
+.hobby-details .table-course .timing {
+    color: #fff !important;
+    background: #ff3480;
+    border-radius: 100px;
+    display: inline-flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.hobby-details .block.table-buttons .table-button {
+    line-height: 0 !important;
+    border-radius: 100px;
+}
+.hobby-details #calendar-button {
+    border: none;
+    padding: 0;
+    display: inline-flex;
+    max-width: 280px;
+    text-align: left;
+    margin-bottom: 0;
+    height: 38px !important;
+    align-items: center;
+    margin-top: 25px;
+}
+div#calendar-button:after {
+    content: "\f106";
+    font-family: FOntAwesome;
+    padding-left: 10px;
+    font-size: 26px;
+    height: auto;
+    width: auto;
+    transform: rotate(0);
+}
+div#calendar-button.change-arrow:after {
+    content: '\f107';
+}
+div#amenities .row:first-child {
+    display: flex;
+    flex-wrap: wrap;
+}
+div#amenities .row:first-child > div {
+    width: 33%;
+    margin-bottom: 10px;
+    height: auto;
+    line-height: 1.3;
+}
+span.toolTip {
+    position: absolute;
+    top: -40px;
+    background: #00a89b;
+    color: #fff;
+    border-radius: 10px;
+    padding: 4px 10px;
+    font-size: 11px;
+    font-weight: 600 !important;
+    transition: 0.3s;
+    right: 0;
+    display: none;
+    font-family: Montserrat;
+    width: 80%;
+    text-shadow: none;
+}
+ul#verified_block li:hover .toolTip {
+    display: inline-block;
+}
+ul#verified_block li:first-child .toolTip {
+    top: 0;
+    left: 20%;
+}
+div#edit-field-verify-dbs-document-und-ajax-wrapper .input-group {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px 0;
+}
+input#edit-field-verify-dbs-document-und-0-upload {
+    width: 70%;
+    margin-right: 3%;
+}
+div#edit-field-verify-dbs-document-und-ajax-wrapper .input-group-btn {
+    width: 27%;
+    display: block;
+}
+div#edit-field-verify-dbs-document-und-ajax-wrapper .input-group-btn button {
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    border-radius: 5px;
+}
+.add_ver .scrollBx .field-type-file {
+    padding: 0;
+}
+div#link-vendor h4 {
+    width: 25%;
+    padding: 5px 15px;
+}
+div#link-vendor h4 a {
+    width: 100%;
+    height: 100%;
+}
+div#link-vendor h4 a {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    min-height: 50px;
+    padding: 0 38px 0 10px;
+}
+section.vendor-general p#description {
+    margin-left: -21.5%;
+    padding-top: 0;
+}
+div#vendor button.more-button {
+    margin-left: -21.5%;
+}
+.contact-vendor.description.row .whte-box p {
+    max-width: 49%;
+    display: inline-block;
+}
+html body.node-type-deal .main-container {
+    padding: 0 15px!important;
+}
+.shortlink.description.row h4.h4-headings {
+    display: none !important;
+}
+div#calendar .fc-toolbar, div#edit-field-product-und .fc-toolbar {
+    width: 100% !important;
+    padding: 11px 0 !important;
+}
+span.images.amenities-FirstAid {
+    background-size: contain;
+}
+.view-hobby-batch-categories .view-content .item-list h3 a {
+    color: #ffffff !important;
+    font-weight: 600;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+section#block-block-8 h3 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #5eb5ad;
+    font-size: 34px;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+.image-container .image-caption {
+    width: 100% !important;
+}
+.page-deals-subcategories div#myList .col-xs-12 .image-container h3:after {
+    display: none;
+}
+.page-deals-subcategories div#myList .col-xs-12 .image-container h3 {
+    white-space: normal;
+    width: 100%;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    font-size: 14px;
+    color: #fff !important;
+}
+ .page-deals-subcategories div#myList {
+    display: flex;
+    flex-wrap: wrap;
+}
+.page-deals-subcategories div#myList .col-xs-12 {
+    width: 25%;
+}
+section#top-trending-interests .images-grid .image-container {
+    padding-bottom: 0 !important;
+}
+.page-deals-subcategories div#myList .col-xs-12 .image-container .image-caption {
+    background: #ff3480;
+    padding: 8px 8px;
+    border-radius: 100px;
+    margin-top: 20px;
+    max-height: 80%;
+    max-width: 80%;
+    word-break: break-word;
+    display: block;
+    position: relative;
+    top: auto;
+}
+.view-hobby-batch-categories .view-content .item-list h3 {
+    background: #37acb1;
+}
+section#block-block-7 h3 {
+    color: #37acb1!important;
+    font-size: 26px;
+    margin-bottom: 16px!important;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.page-hourly-categories section#block-system-main {
+    margin-bottom: 40px;
+}
+.node-type-blog .main-container {
+    background: transparent !important;
+}
+.node-type-blog{
+    background-color: #fff;
+}
+
+img{
+    max-width: 100%;
+}
+.page-blog{
+    background: transparent !important;
+}
+.page-blog .col-sm-12.content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.page-blog > .region  {
+    overflow-x: hidden;
+}
+.blog-banner {
+    height: 450px;
+    position: relative;
+    margin: 30px 0 50px;
+}
+.blog-banner .bg-banner {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 0;
+}
+.overlay:before {
+    display: block;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.7);
+    content: "";
+    top: 0;
+    position: absolute;
+    z-index: 1;
+}
+.blog-banner .vert-mdl , .vert-mdl {
+    display: block;
+    transform: translateY(-50%);
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 100%;
+    content: "";
+    top: 50%;
+    position: absolute !important;
+    z-index: 55;
+    max-width: 900px;
+}
+.blog-banner .vert-mdl{
+    text-align: center;
+    max-width: 1200px;
+    padding: 20px;
+}
+.blog-banner *{
+    color: #fff;
+}
+.img_content h3{
+    font-size: 16px;
+    line-height: 1.4;
+}
+.img_content h2{
+    font-weight: bold;
+    font-size: 40px;
+    text-transform: uppercase;
+    line-height: 1.4;
+}
+.img_content button {
+    padding: 12px 50px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    background: transparent;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 20px;
+    transition: all 500ms ease;
+}
+.img_content button:hover {
+    background: #fff;
+    color: #333;
+}
+.view-blog-pages .view-content {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0 -10px;
+}
+.view-blog-pages .view-content .views-row{
+    width: 100%;
+    margin: 20px 0 40px;
+    padding: 0 20px 56px;
+    position: relative;
+    box-shadow: 0px 0px 30px -9px #b9b9b9;
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.views-field-field-blog-image .field-content  img,
+.views-field-field-blog-image .field-content {
+    width: 100% !important;
+    height: 200px;
+    object-fit: cover;
+    background: #ccc;
+    overflow: hidden;
+    border-radius: 0;
+    margin-bottom: 0;
+}
+.views-field-field-blog-image{
+    margin-left: -20px;
+    margin-right: -20px;
+    width: auto;
+}
+.views-field.views-field-field-blog-image {
+    padding: 0;
+}
+.blog-content {
+    padding: 10px 0;
+    text-align: left;
+    color: #00a89b;
+    font-size: 14px;
+    color: #546e6d;
+}
+.page-my-blog .blog-content{
+    padding-bottom: 50px;
+}
+.blog-content h2 {
+    font-size: 19px;
+    font-family: 'Montserrat-SemiBold' !important;
+    margin: 10px 0 10px;
+    color: #000000;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    line-height: 1.4;
+    font-style: normal;
+}
+#block-views-blog-pages-block-1 h2.block-title {
+    display: block;
+    color: #00a89b;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.blog-content p, .blog-content h1.rtejustify {
+    color: #505050;
+    font-size: 15px;
+    font-weight: 500 !important;
+    line-height: 1.3;
+    letter-spacing: 0;
+    min-height: 55px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    font-family: 'Montserrat-Medium' !important;
+}
+.blog-content h1.rtejustify span{
+    color:inherit !important;
+    font-weight:normal !important;
+}
+.blog_read_more {
+    text-align: center;
+    margin-top: 0;
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+    right: 0;
+}
+.views-field.views-field-delete-node {
+    position: absolute;
+    bottom: 8px;
+    text-align: center;
+    width: 100%;
+    font-size: 16px;
+}
+.views-field.views-field-delete-node a{
+    text-transform: uppercase;
+    font-family: 'Montserrat-Bold';
+    padding: 0;
+    color: #5a5a5a;
+}
+span.views-label.views-label-delete-node{
+    display:none;
+}
+.views-field.views-field-field-blog-image a {
+    padding-left: 0;
+}
+.about-us-additional {
+    border: none !important;
+    padding-top: 0 !important;
+}
+.node-type-blog .blog_read_more a {
+    display: inline-block;
+    margin-top: 8px;
+    text-transform: capitalize;
+    padding: 10px 20px;
+    background: #00a89b !important;
+    border: 1px solid #00a89b;
+    color: #fff;
+    border-radius: 25px;
+    font-family: 'Montserrat-SemiBold';
+    font-size: 18px;
+    width: 100%;
+    max-width: 80%;
+}
+.blog_read_more a:hover{
+    opacity: 0.8;
+}
+
+
+/*
+Blog Detail Page
+==========================================================*/
+body header[role=navigation], body header nav {
+    height: auto !important;
+}  
+section#block-views-blog-pages-block-2 {
+    margin: 0 !important;
+}
+section#block-views-blog-pages-block-2 .views-field-field-blog-image {
+    margin: 0;
+}
+section#block-views-blog-pages-block-2 .view-content {
+    margin: 0;
+    display: block;
+}  
+section#block-views-blog-pages-block-2 .view-content table.views-view-grid{
+    display: block;
+    width: 100%;
+    margin-top: 0;
+}
+section#block-views-blog-pages-block-2  table.views-view-grid>tbody{
+    display: block;
+    margin: 0;
+}
+section#block-views-blog-pages-block-2 table.views-view-grid>tbody>tr {
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    border-radius: 0;
+}
+section#block-views-blog-pages-block-2 .views-field-field-blog-image .field-content>img, 
+section#block-views-blog-pages-block-2 .views-field-field-blog-image .field-content{
+    width: 100%!important;
+    height: 500px;
+    object-fit: cover;
+    margin: 0;
+    overflow: hidden;
+    border-radius: 0;
+}
+.node-type-blog .region.region-content {
+    padding: 30px 20px;
+    background: inherit;
+    border-radius: 5px;
+    margin: 0px auto 80px;
+    max-width: 100%;
+}
+.node-type-blog  .date-set.flex-bx.just-center.aln-midl {
+    display: flex;
+    flex-wrap: wrap;
+}
+.date-set.flex-bx.just-center.aln-midl > div:nth-child(3) {
+    flex: auto;
+    text-align: right;
+}
+.node-type-blog .blogDetailDescription img {
+    margin: 20px 0;
+    border-radius: 5px;
+}
+.node-type-blog .region.region-content .container{
+    width: 100% !important;
+}
+.node-type-blog .main-container .col-md-12 > h2,
+.main-container h2.block-title{
+    display: none;
+    text-align: center;
+    margin: 0 0 30px;
+    position: relative;
+    color: #587072;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.node-type-blog .field-item {
+    font-size: 18px;
+    font-weight: 400;
+}
+h2.block-title{
+    margin: 15px 0;
+    font-size: 25px;
+    text-transform: inherit;
+}
+h2.main-bg-head {
+    color: #00a89b;
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 1.4;
+}
+.node-type-blog .field.field-name-field-blog-image {
+    margin: 0 -20px;
+}
+.node-type-blog .blogDetailDescription {
+    font-size: 18px;
+    font-weight: 400;
+}
+.node-type-blog .blogDetailDescription p, .node-type-blog .blogDetailDescription span {
+    font-family: 'Montserrat-regular' !important;
+    line-height: 1.6;
+    word-break: break-word;
+    color: #6d6d6d;
+    font-size: 22px;
+}
+.node-type-blog .blogDetailDescription h2 span strong {
+    font-size: 35px !important;
+    font-family: 'Montserrat-Bold';
+    color: #00a89b;
+    margin: 30px 0 20px !important;
+    display: block;
+}
+.node-type-blog .blogDetailDescription h3, .node-type-blog .blogDetailDescription h3 > span{
+    font-family: 'Montserrat-Bold' !important;
+    font-size: 24px;
+    color: #000;
+    text-align: left;
+}
+.node-type-blog .field-name-field-blog-image .field-item img {
+    max-height: 500px;
+    object-fit: cover;
+    width: 100%;
+}
+.date-box {
+    margin: 30px 0;
+    padding: 20px 0;
+    border-left: 0;
+    border-right: 0;
+    font-size: 22px;
+    font-family: 'Montserrat-Medium';
+}
+.node-type-blog ul.links.list-inline{
+    display: none;
+}
+.node-type-blog u{
+    color: #546e6d;
+    margin-top:20px;
+}
+h4.mid-heading, .node-type-blog .field.field-name-body p strong {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 30px 0 10px;
+}
+.date-set > div {
+    margin: 0 10px;
+    font-weight: 600;
+}
+.node-type-blog .block-views , 
+.node-type-blog .field-name-body{
+    margin: 30px 0;
+}
+
+/*.node-type-blog .field.field-name-body {
+    background: #fff !important;
+    max-width: 800px;
+    margin: auto;
+    padding: 30px;
+    margin-top: -50px;
+    z-index: 55;
+    position: relative;
+    box-shadow: 0 0 10px #f3f3f3f2;
+    border-radius: 5px;
+}*/
+
+.view-blog-pages .view-content {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0 0;
+        justify-content: center;
+}
+table.views-view-grid {
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+}
+.page-node-2562 table.views-view-grid{
+    max-width: 1240px;
+    margin: 0 auto 50px;
+    width: 95%;
+}
+.page-node-2562 table.views-view-grid .vid-content{
+    width:100%;
+}
+table.views-view-grid > tbody {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 ;
+    justify-content: center;
+
+}
+table.views-view-grid > tbody > tr {
+    display: block;
+}
+table.views-view-grid > tbody > tr > td{
+    display: block;
+}
+
+table.views-view-grid .views-field.views-field-created{
+    display: none;
+}
+/*responsive mine*/
+@media (min-width: 992px){
+    body .view-blog-pages .view-content >*{
+        width: 23% !important;
+        margin-right: 2% !important;
+    }
+    body .view-blog-pages .view-content table{
+        width:100% !important;
+        margin-right:0; !important;
+    }
+    table.views-view-grid > tbody > tr:nth-child(3n), .view-blog-pages .view-content .views-row:nth-child(4n) {
+            margin-right: 0;
+     } 
+     .gm-style-iw-d {
+    overflow-x: hidden !important;
+}
+.info-window-search {
+    width: 275px;
+}
+
+}
+
+
+
+@media(min-width: 580px)
+{
+    #side_bar .pos-rltv iframe {
+        display: none;
+    }
+   .subjectResults form#front-page-search-hour.offline_option_selected .form-submit{
+    margin-top:25px !important;
+}
+    .for-mob{
+        display: none;
+    }
+    .for-desk{
+        display: block;
+    }
+  
+    body.page-user-orders .region-content table tbody td > span {
+    font-size: 0;
+}
+    body.page-user-orders .region-content table tbody td {
+    text-align: left;
+    background: inherit;
+    padding: 12px 20px 12px 8px;
+}
+/*span.status-processing:before, .status-completed:before {
+    content: '';
+    background: url(https://myhobbycourses.com/sites/all/themes/hobbycourse/css/images/payment-done.jpg);
+    background-size: 58px !important;
+    background-repeat: no-repeat !important;
+    display: inline-block;
+    width: 75px;
+    height: 85px;
+}*/
+span.status-processing:before
+{
+    background: url(https://myhobbycourses.com/sites/all/themes/hobbycourse/css/images/payment-pending.jpg);
+}
+
+span.status-processing,
+.status-completed {
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 11px;
+    color: #949494 !important;
+}
+
+}
+@media (min-width: 580px) and (max-width:991px){
+    .view-blog-pages .view-content .views-row{
+        width: 48%;
+        margin-right: 4%;
+     }
+     table.views-view-grid > tbody > tr:nth-child(2n),
+     .view-blog-pages .view-content .views-row:nth-child(2n) {
+            margin-right: 0;
+        } 
+ } 
+
+ @media (max-width: 980px)
+ {
+    .card-box {
+    flex: 0 0 48%;
+}
+     .order-section:after {
+    content: '\f107';
+    font-family: FontAwesome;
+    font-size: 25px;
+    background: #ff3480;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    border-radius: 100%;
+    position: absolute;
+    bottom: -14px;
+    z-index: 9;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+.page-vendor-sales .order-section {
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+}
+body.page-vendor-sales .productInfo {
+    padding-bottom: 26px;
+}
+.order-section.active:after {
+    content: '\f106' !important;
+}
+.page-vendor-sales .order-section.active .productInfo {
+    color: #fff !important;
+    padding: 10px 50px 10px 12px;
+    border-radius: 8px;
+    width: 100%;
+}
+    .subjectResults form#front-page-search-hour .col-xs-12 {
+    width: 33%;
+}
+body .subjectResults form#front-page-search-hour .col-xs-12:last-child {
+    position: relative !important;
+    top: 0;
+    display: flex !important;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.subjectResults form#front-page-search-hour > div {
+    padding-right: 0;
+}
+ }
+
+ @media (max-width: 767px)
+ {
+    .top-fix .img-rel {
+        max-width: 100px;
+    }
+     .tudetails{
+         margin-top:0;
+     }
+     .subjectResults form#front-page-search-hour div:nth-child(9), .subjectResults form#front-page-search-hour div:nth-child(10){
+         flex:0 0 100%;
+         padding: 0 5px;
+     }
+    #block-system-main .leisure-tutor #verifications .absolut-fix > .btn-box .btn {
+        max-width: 100% !important;
+        margin: 0 auto !important;
+        font-size: 14px !important;
+        padding: 0 !important;
+    }
+    div#at4-share {
+    display: none;
+}
+.leisure-tutor .btn-box {
+    padding: 12px;
+}
+     body.not-logged-in.page-tutor-form .main-container{
+         height: auto !important;
+     }
+    .order-custom-view .table tbody td:nth-child(2), .order-custom-view .table thead th:nth-child(2) {
+    max-width: 100% !important;
+}
+.order-custom-view .table tbody td {
+    margin-bottom: 15px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.order-custom-view .col-sm-4.billing-info {
+    margin-top: 0;
+}
+.hour_data a {
+    font-size: 20px !important;
+    font-weight: 600;
+}
+    .top-fix .text-blk {
+    padding-bottom: 0 !important;
+}
+    .order-section .orderID {
+    display: flex;
+    align-items: center;
+}
+    .blockss .row {
+    margin: 0 !important;
+}
+    body.page-hour-schedule div#inner-profile-popup-container {
+    max-width: 90% !important;
+    margin-top: 120px !important;
+}
+body.page-hour-schedule div#inner-profile-popup-container .res-pop p {
+    border-bottom: 1px solid #d8d8d8;
+    margin-bottom: 0;
+    padding: 10px 0;
+    font-size: 15px;
+}
+button#popup-close {
+    border-radius: 5px;
+    text-transform: uppercase !important;
+    font-size: 12px !important;
+    letter-spacing: 1px;
+    padding: 8px 15px !important;
+}
+    section#block-system-main form#front-page-search-hour label {
+    color: #00a89b;
+    font-size: 17px;
+}
+section#block-system-main form#front-page-search-hour select, section#block-system-main form#front-page-search-hour input {
+    border: none;
+    font-size: 15px;
+    height: 45px;
+}
+.filter_open:after {
+    content: '\f0b0' !important;
+}
+.banner-search
+{
+    display: block !important;
+}
+body .time-wrap p {
+    font-weight: normal;
+    background: #f3f5f7;
+    padding: 14px 25px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-size: 16px;
+    color: #565656;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+body .time-wrap p i{
+    margin-right:5px;
+}
+    .banner-search img {
+    height: 255px;
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+span.shad {
+    background: #cd9c25;
+    transform: skew(-16deg);
+    padding: 0 10px;
+    margin-left: 12px;
+    display: inline-block;
+    font-size: 32px;
+}
+.search-main {
+    position: relative;
+}
+.banner-search {
+    position: relative;
+}
+.banner-search .search-overlay {
+    position: absolute;
+    background: rgba(0,0,0,0.5);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner-search .search-overlay h1 {
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: 600;
+    line-height: 1.3;
+    text-align: center;
+    font-size: 35px !important;
+}
+    .subjectResults form#front-page-search-hour .col-xs-12:last-child button {
+    border: none !important;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 10px auto 0;
+    max-width: 97%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    background: #00a89b;
+}
+    .top-fix p.dots-all {
+    right: auto;
+    left: 86px;
+    bottom: 6px;
+    width: 15px;
+    height: 15px;
+}
+.subjectResults form#front-page-search-hour .col-xs-12:last-child button.load-filter {
+    border-left: 1px solid #00a89b !important;
+}
+.subjectResults {
+    padding: 0 !important;
+}
+.subjectResults form#front-page-search-hour > div {
+    padding-right: 0;
+}
+.page-search-hour-results .moreone form#front-page-search-hour .col-xs-12.col-md-4 {
+    flex: auto;
+}
+    #university-fieldset-wrapper1 .form-type-textfield {
+    width: 93%;
+}
+#university-fieldset-wrapper1 .form-type-select {
+    width: 93% !important;
+}
+#qualifications-form_edit_new .checkbox input[type=checkbox] {
+    margin-right: 8px;
+    margin-top: 4px;
+}
+    div#edit-main-subjects a {
+    padding: 5px 15px;
+    min-width: auto;
+}
+#university-fieldset-wrapper .form-type-textfield, #college-fieldset-wrapper .form-type-textfield, #other-fieldset-wrapper .form-type-textfield {
+    width: auto !important;
+}
+#university-fieldset-wrapper .form-type-select, #college-fieldset-wrapper .form-type-select, #other-fieldset-wrapper .form-type-select {
+    width: auto !important;
+    min-width: 96%;
+}
+
+    div#main-vendor .view-content > div {
+    width: 50%;
+    margin-bottom: 0;
+}
+.page-vendor-profile .button-container
+{
+    margin-bottom: 5px;
+}
+.page-vendor-profile .course-box .img-overlay, .page-vendor-profile .course-box .img-overlay>img {
+    min-height: 265px;
+    height: 265px !important;
+}
+    .page-deals-subcategories div#myList .col-xs-12 .image-container {
+    margin: 0px !important;
+    height: 100%;
+    box-shadow: 0px 0px 10px -6px #000;
+}
+body.page-deals-subcategories section#block-system-main>section#top-trending-interests {
+    padding: 20px 0 60px 0;
+}
+    .page-deals-subcategories div#myList .col-xs-12 {
+    width: 46%;
+    margin: 2% 2% 4% 2%;
+}
+    body div#qr-code {
+    display: block !important;
+}
+section.vendor-general p#description,
+div#vendor button.more-button {
+    margin-left: 0;
+    padding-top: 0;
+}
+.contact-vendor.description.row .whte-box p {
+    max-width: 100%;
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-bottom: 11px !important;
+    padding: 14px !important;
+}
+
+
+/*fix-vendor*/
+.container.main-vendor-page .tutor-wrap.top-fix .user-verified {
+    display: none !important;
+}
+.top-fix .teach-pltform {
+    display: none;
+}
+.top-fix p.travel-pol.desk-hide {
+    display: none;
+}
+.page-vendor-profile .top-fix div#vendor-image img {
+    width: 50px;
+    height: 50px;
+}
+.top-fix .tutor_tagline-mobile p {
+    display: none;
+}
+.top-fix p.vendor-created.iconLN {
+    display: none;
+}
+.top-fix .pos-bts {
+    display: none;
+}
+body .top-fix {
+    position: fixed !important;
+    top: 0px;
+    width: 100%;
+    z-index: 999;
+    left: 0;
+    padding: 10px 0 !important;
+    background: #ff3480 !important;
+    border-radius: 0 !important;
+}
+.top-fix .text-blk {
+    padding-top: 0;
+}
+.top-fix div#vendor-image {
+    margin-top: 0 !important;
+}
+.top-fix .price-tag {
+    top: 8%;
+    right: 19px;
+}
+.top-fix .text-blk h3, .top-fix .text-blk p {
+    color: #fff;
+}
+.page-vendor-profile .top-fix div#vendor-image img {
+    width: 62px;
+    height: 62px;
+}
+.top-fix .text-blk span {
+    color: #fff !important;
+}
+section#block-system-main .top-fix .text-blk h3 {
+    font-size: 21px !important;
+    margin-top: 5px !important;
+}
+section#block-system-main .top-fix .text-blk p {
+    font-size: 15px !important;
+}
+.top-fix .user-verified.mobile-view.non_varified {
+    display: none !important;
+}
+.top-fix .time-wrap {
+    display: none;
+}
+.top-fix .img-rel {
+    position: static;
+}
+/*fix-vendor*/
+    #edit-customer-profile-billing-commerce-customer-address-und-0 p {
+    margin-top: 0px !important;
+}
+form#commerce-checkout-form-checkout fieldset#edit-account {
+    background-color: #ffffff !important;
+    border: none !important;
+}
+form#commerce-checkout-form-checkout fieldset#edit-account .panel-body .form-type-item {
+    margin-bottom: 0;
+}
+form#commerce-checkout-form-checkout fieldset#edit-account .panel-body {
+    text-align: left;
+}
+form#commerce-checkout-form-checkout .account p#styled, form#commerce-checkout-form-checkout #edit-customer-profile-billing-commerce-customer-address-und-0 p {
+    font-size: 22px !important;
+    text-align: left !important;
+}
+form#commerce-checkout-form-checkout fieldset#edit-customer-profile-billing {
+    background-color: #ffffff !important;
+}
+   .container.main-vendor-page .tutor-wrap .user-verified {
+    right: 12px !important;
+    top: 17px !important;
+}
+.tutor-wrap {
+    padding-top: 0px !important;
+}
+
+    .page-hourly-categories .view-content .item-list {
+    width: 46% !important;
+    min-width: 2% !important;
+}
+.course-short-data {
+    width: 100%;
+    margin-bottom: 15px;
+}
+.view-new-node-listing-views .img-overlay img {
+    max-height: 100% !important;
+    min-height: 250px;
+    object-fit: cover;
+    object-position: top !important;
+}
+.page-venues .single-location .row > .col-sm-5,
+.page-tutors .single-location .row > .col-sm-5 {
+    padding-right: 0px;
+    width: 100%;
+    max-height: 250px;
+    overflow: hidden;
+}
+
+.course-short-data .info .col-xs-3:before {
+    position: relative !important;
+    display: block;
+    margin: 0 0 14px 0 !important;
+}
+.info .col-xs-3 p {
+    max-height: 100%;
+    text-align: left;
+}
+.course-short-data .info {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 10px;
+    align-items: flex-start;
+}
+.course-area .row.overlay-bottom-text > a > div {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.course-area .row.overlay-bottom-text div:last-child p:before {
+    top: 0 !important;
+}
+.course-short-data .info .col-xs-3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0 !important;
+    overflow: hidden;
+    flex: auto;
+}
+.seven-cols .one-day-timing {
+    padding: 0 17px;
+}
+.one-day-timing>div {
+    text-align: left;
+}
+.call, .more {
+    text-align: left;
+}
+.more {
+    padding-left: 0;
+}
+ }
+
+ @media (max-width:580px){
+    .online-result {
+    padding: 0;
+    overflow-y: auto;
+}
+div#edit-field-product{
+    margin: 10px 0;
+}
+.slidenew {
+    max-height: 31rem;
+    overflow: hidden;
+}
+.currencies{
+    margin-top: 5px;
+}
+form.node-deal-form .field-name-field-certification-1 .form-text, form.node-deal-form .field-name-field-youtube-video .form-text {
+    margin: 10px 0;
+}
+.page-tutor-form div#edit-educatore-register:after{
+    height: 662px;
+    background-image: url('https://myhobbycourses.com/sites/all/themes/hobbycourse/images/Vertical infographic.jpg');
+}
+.page-vendor-profile .view-content > div {
+    width: 100% !important;
+}
+.course-content {
+    font-size: 14px;
+}
+.page-vendor-sales .order-section.active .productInfo:after{
+    width: 28px;
+    height: 28px;
+}
+body .detail-section h4 img{
+    width: 20px;
+    height: 13px;
+}
+body .home-video h2 {
+    font-size: 26px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+body .home-video p {
+    font-size: 15px;
+}
+body a.cta {
+    font-size: 14px;
+    padding: 10px 14px;
+    min-width: auto;
+}
+#block-views-blog-pages-block-1 h2.block-title {
+    font-size: 28px;
+    line-height: 1.4;
+}
+.node-type-blog .blogDetailDescription h2 span strong {
+    font-size: 28px !important;
+    line-height: 1.3;
+}
+body .order-custom-view .table > tbody > tr.odd > td a.calendario-details-show-order {
+    padding: 10px 25px !important;
+    font-size: 12px !important;
+}
+.order-box {
+    margin: -48px 0px 0;
+}
+.zoom_detials {
+    flex-wrap: wrap;
+}
+.slink a {
+    font-size: 12px;
+}
+.zoom_detials p {
+    font-size: 13px;
+}
+body .hour-tutor p.discount_given {
+    font-size: 26px;
+}
+body .hour-tutor .dis-number > span,
+body .hour-tutor .dis-number > span small{
+    font-size: 15px;
+}
+body .hour-tutor .dis-number > span small:after {
+    font-size: 15px;
+    top: -1px;
+    right: -2px;
+}
+body .time-wrap p i{
+    font-size:20px;
+    margin-bottom: 5px;
+    margin-right: 0;
+}
+.st-img-sec{
+    display:none;
+}
+.node-type-blog .blogDetailDescription h3, .node-type-blog .blogDetailDescription h3 > span{
+    font-size: 20px !important;
+}
+.node-type-blog .blogDetailDescription img{
+    height:auto !important;
+}
+.node-type-blog .blogDetailDescription p, .node-type-blog .blogDetailDescription span{
+    font-size: 14px !important;
+    line-height: 1.6;
+}
+.producttitle{
+    font-size: 14px;
+    margin-bottom:5px !important;
+}
+.producttitle:empty{
+    display:none;
+}
+body .main_sales .order-section {
+    overflow: unset;
+}
+body .main_sales h3 {
+    padding: 10px;
+    font-size: 12px;
+}
+body span.top_count {
+    border-radius: 6px;
+    width: 25px;
+    height: 25px;
+    top: 0;
+    font-size: 25px;
+    position: relative;
+    transform: translate(0);
+}
+body .order-section .orderID {
+    padding: 3px 16px 10px 0px;
+    font-size: 14px;
+    text-transform: capitalize;
+    height: auto;
+}
+.order-section .orderinfo {
+    font-size: 17px !important;
+}
+.page-node-add-deal .fc-content-skeleton tbody td.fc-event-container a,
+.page-node-edit .fc-content-skeleton tbody td.fc-event-container a {
+    width: 79%;
+    left: 1px;
+    padding: 2px 2px;
+    font-size: 0;
+    height: 26px;
+}
+.page-node-add-deal .fc-content-skeleton tbody td.fc-event-container a span,
+.page-node-edit .fc-content-skeleton tbody td.fc-event-container a span {
+    font-size: 5px;
+}
+body.page-node-add-deal .fc-basic-view .fc-body .fc-row,
+body.page-node-edit .fc-basic-view .fc-body .fc-row {
+    height: 35px !important;
+}
+body.page-node-add-deal .fc-row.fc-widget-header th,
+body.page-node-edit .fc-row.fc-widget-header th {
+    height: 35px;
+}
+.page-node-add-deal .fc-basic-view .fc-body .fc-row .fc-day-top span,
+.page-node-edit .fc-basic-view .fc-body .fc-row .fc-day-top span {
+    padding: 5px 5px;
+    margin: 0 1px !important;
+    font-size: 12px !important;
+}
+body.page-node-add-deal .fc-basic-view .fc-body .fc-row .fc-day-top span ,
+body.page-node-edit .fc-basic-view .fc-body .fc-row .fc-day-top span {
+    padding: 5px;
+    font-size: 10px!important;
+    height: 1.757rem;
+}
+.subjectResults .hour_tu_price a, .tutor_resu .hour_tu_price a {
+    line-height: 44px;
+    font-size: 13px;
+}
+    .bg-short {
+    margin-bottom: 80px;
+}
+.search-banner h2 {
+    font-size: 15px;
+    margin: 10px auto 0;
+    line-height: 1.5;
+}
+.search-banner h1 span {
+    font-size: 15px;
+    height: 38px;
+    margin-right: 10px;
+}
+.search-banner h1 {
+    font-size: 20px;
+}
+.search-banner {
+    padding: 15px 25px 45px;
+}
+.tutor_resu .col-md-12{
+    margin-top: 25px;
+}
+.tutor_resu .col-md-12 h3{
+    margin-top:0;
+    font-size:16px;
+}
+.hour_show_new p,
+.tutor_resu p{
+    font-size:15px;
+}
+.tutor_resu h2{
+    font-size:20px;
+}
+ body .hour_tu_price h3{
+      font-size: 19px;
+      text-align: center;
+      justify-content: center;
+      margin-top: 0;
+    }
+    .subjectResults .hour_tu_price a{
+        font-size: 12px;
+        width: 100%;
+        line-height: initial;
+        padding: 10px;
+    }
+    body .hour_tu_price p{
+        font-size: 10px;
+        margin-bottom: 0;
+    }
+    .course-box .seven-cols{
+        margin-top: 5px !important;
+    }
+.course-area .row.overlay-bottom-text{
+    padding: 10px 10px 2px;
+}
+body .course-area{
+    padding: 0 10px;
+    margin-bottom: 5px !important;
+}
+.course-box .col-xs-12.seven-cols.padd0 div{
+    font-size: 15px;
+    margin-left: 2px !important;
+    padding: 0 9px;
+    max-width: 100%;
+}
+.course-box .col-xs-12.seven-cols.padd0 div.one-day{
+    margin-right: 5px;
+    max-width: 65px;
+    padding-right: 5px;
+    padding-left: 0;
+}
+body .seven-cols .one-day-timing div.one-time div:first-child:after{
+    font-size: 15px;
+    right: 1px;
+}
+body .course-area .row.overlay-bottom-text div:first-child h6{
+    font-size: 16px !important;
+    height: auto !important;
+    max-height: 100% !important;
+}
+body .info .col-xs-3 p{
+    font-size: 11px !important;
+    padding-top: 0 !important;
+}
+body .info .col-xs-3:before{
+    width: 20px !important;
+    height: 20px !important;
+}
+body .user-verified-cont h3{
+    margin-bottom: 0 !important;
+}
+section#block-views-blog-pages-block-2 .views-field-field-blog-image .field-content{
+    height: auto;
+}
+div#myLocations .bg-box-gray{
+    padding:0;
+}
+body .col-xs-12.tutors{
+    padding: 0 13px;
+}
+div#main-vendor .view-content > div .course-area {
+    padding: 0 5px;
+}
+div#main-vendor .leisure-tutor .view-content > div .course-area{
+    height:auto;
+}
+body .leisure-tutor .course-area .row.overlay-bottom-text div:first-child h6{
+    font-size: 11px !important;
+    height: auto !important;
+    margin-bottom: 3px !important;
+}
+body .leisure-tutor .course-area .row.overlay-bottom-text{
+    padding:5px 10px;
+}
+body .leisure-tutor .course-box .col-xs-12 .button-area>div{
+    height: 28px;
+}
+body .leisure-tutor .course-box .img-overlay{
+    height: 150px !important;
+    max-height: 100% !important;
+    overflow: hidden;
+    min-height: 0 !important;
+}
+body .leisure-tutor .course-box .col-xs-12 .button-area>div{margin-bottom: 8px !important;margin-top: -12px !important;}
+body .leisure-tutor .course-box .col-xs-12 .button-area>div a{
+    font-size: 10px !important;
+}
+body .leisure-tutor .course-box .img-overlay img{
+    min-height: 0;
+}
+.page-blog .views-exposed-widgets div#edit-field-type-tid-wrapper div#edit-field-type-tid .form-item {
+    flex: auto;
+    margin-bottom: 12px !important;
+}
+    body.not-logged-in.page-tutor-form #edit-educatore-register > .row > .col-md-6 {
+    width: auto;
+    min-width: 100%;
+    flex: 0 0 100%;
+}
+.card-box {
+    flex: 0 0 100%;
+    margin: 1% 1% 20px;
+}
+body.not-logged-in.page-tutor-form div#edit-educatore-register>h3{
+    font-size: 40px;
+ } 
+ body.not-logged-in.page-tutor-form .row.tutor_form {
+    padding: 20px 15px !important;
+}
+   .col-xs-12 .col-sm-12 .user-profile-title {
+    font-size: 12px !important;
+}
+body.page-user-orders table td.views-field-order-number a {
+    border: none;
+}
+.switch-qualifications > a {
+    font-size: 10px;
+}
+div#edit-main-subjects a {
+    font-size: 11px;
+}
+form#subject-edit-form {
+    padding: 10px 18px;
+}
+fieldset#edit-subjects {
+    max-height: 200px;
+    overflow-y: scroll;
+    margin-bottom: 10px !important;
+}
+
+fieldset#edit-subjects, fieldset#edit-subjects .panel-body {
+    margin: 0;
+}
+#edit-subjects .form-type-checkboxes.form-item.form-group {
+    margin-bottom: 0px !important;
+}
+.message-user-picture img {
+    max-width: 100%;
+    height: 100%;
+}
+.message-user-info {
+    width: 72%;
+}
+div#edit-flag-card-markup p {
+    margin-bottom: 0;
+    text-align: left;
+}
+.blockss.bg-blue {
+    background: #89ccca;
+}
+.page-user-me-edit .custom_box_tab {
+    padding: 25px;
+}
+#edit-field-amenities {
+    max-height: 250px;
+    overflow: scroll;
+}
+#edit-field-deal-image-und-0-upload-button {
+    padding: 10px 0;
+    max-width: 100px;
+    height: 42px;
+}
+.page-node .calendario-deal .image-widget.form-managed-file .form-control {
+    height: 42px!important;
+    padding: 8px!important;
+}
+.page-user-me-edit .main-container {
+    padding-top: 0 !important;
+}
+h4.profile_link {
+    line-height: 24px;
+    font-size: 14px;
+    margin: 0;
+}
+.page-user-me-edit .row:first-child .col-xs-12 {
+    padding: 0;
+}
+body.page-user .region-content form .form-title {
+    margin-top: 0;
+}
+.user_profile_box {
+    margin-top: 15px;
+}
+    div#main-vendor .view-content > div > div {
+    width: 100%;
+}
+.schedule-table::-webkit-scrollbar {
+-webkit-appearance: none;
+}
+.schedule-table::-webkit-scrollbar:vertical {
+width: 12px;
+}
+.schedule-table::-webkit-scrollbar:horizontal {
+height: 10px;
+}
+.schedule-table::-webkit-scrollbar-thumb {
+background-color: rgb(181 181 181);
+border-radius: 10px;
+border: 2px solid #ffffff;
+}
+.schedule-table::-webkit-scrollbar-track {
+border-radius: 10px;
+background-color: #ffffff;
+}
+.schedule-table {
+    margin-bottom: 20px !important;
+}
+.schedule-table table {
+    margin-bottom: 5px;
+}
+.top-fix p.dots-all {
+    left: 63px;
+    top: 55px;
+}
+.view-filters .views-exposed-widgets div#edit-title-wrapper {
+    width: 75%;
+}
+.page-blog .view-filters form {
+    max-width: 90%;
+    margin: 0 auto;
+}
+.view-filters .views-exposed-widget {
+    width: 25%;
+}
+    .page-hourly-categories .view-content .item-list {
+    width: 100%!important;
+    min-width: 0%!important;
+}
+    .back-btn 
+    {
+        display: none;
+    }
+    .page-deals-subcategories div#myList .col-xs-12 .image-container h3 {
+    font-size: 12px;
+}
+    div#amenities .row:first-child > div {
+    width: 50%;
+    margin-bottom: 10px;
+    height: auto;
+    line-height: 1.3;
+}
+    div#edit-field-verify-dbs-document-und-ajax-wrapper .panel-body {
+    padding: 0;
+}
+    .hobby-details #calendar-button {
+    max-width: 100%;
+}
+    .switcher-block-inner .checkbox {
+    margin: 20px auto 0;
+}
+.checkbox-slider-md input+span{
+    padding-top:3px;
+}
+.section-wrap.top_profile {
+    margin-bottom: 0px;
+    flex-wrap: wrap;
+}
+.top_profile .course-general-details {
+    margin-left: 22px;
+}
+.hobby-details .details-navigation-menu ul li {
+    height: auto;
+}
+.hobby-details .details-navigation-menu ul li a
+{
+    padding-bottom: 0 !important;
+}
+.hobby-details .course-general .user-avatar {
+    width: 26%;
+    float: left;
+    margin: 0 6% 10px 0;
+}
+.top_profile .course-general-details {
+    width: 100%;
+    margin-left: 0;
+    text-align: left;
+}
+ul.course-category {
+    justify-content: flex-start;
+}
+.top_profile .course-general-details h1 {
+    padding-top: 0;
+}
+.hobby-details .details-navigation-menu ul a {
+    min-width: 0;
+}
+.switcher-block-inner {
+    margin-top: 0;
+    margin-bottom: 0;
+    position: relative;
+    padding: 0 10px;
+    height: 109px;
+}
+div#edit-field-cancellation-type {
+    margin-bottom: 0 !important;
+}
+.btn-add-tab::before {
+    width: 30px;
+}
+div#product-form-actions-wrapper button#edit-submit {
+    min-width: 0;
+    font-size: 17px !important;
+    padding: 10px !important;
+    margin: 0 !important;
+}
+.switcher-block img {
+    position: static;
+    width: 90px !important;
+    bottom: 0;
+    right: 0;
+}
+
+    .overlay-message {
+    max-width: 95%;
+    width: 100%;
+}
+    .container.main-vendor-page .tutor-wrap .user-verified {
+    top: 0px !important;
+    position: relative !important;
+    left: 0;
+    max-width: 100% !important;
+    width: 100% !important;
+    display: flex;
+    align-items: center;
+    margin: 5px auto !important;
+    border-top: 1px solid #e2e2e2;
+    border-bottom: 1px solid #e8e8e8;
+    padding: 5px;
+}
+.main-vendor-page .hour-tutor .user-verified-img{
+    max-width: 85px;
+    height: auto;
+    top: 0;
+    position: relative;
+}
+body .user-verified-cont {
+    margin-left: 0px;
+}
+    .tooltip-a .tooltiptext
+    {
+        display: none !important;
+    }
+    .greeting-block h1 {
+    font-size: 26px!important;
+    line-height: 1.2;
+}
+.our-mission .inner-padding div:last-child {
+    font-size: 14px !important;
+}
+/*ul.hw-list li, .hw-question p, .hw-blank p {
+    font-size: 15px;
+}
+.greeting-block-more h2+div, .greeting-block p {
+    font-size: 15px;
+}*/
+.hw-list-title+p, .hw-list {
+    font-size: 17px;
+    margin-top: 12px;
+}
+.greeting-block h1+div {
+    line-height: 1.3;
+    margin-top: 8px;
+}
+.field.field-name-body.field-type-text-with-summary h2, .hw-list-title {
+    font-size: 26px !important;
+    line-height: 1.3;
+    padding: 0 15px;
+}
+    section#block-views-blog-pages-block-2 .views-field-field-blog-image .field-content>img{
+    height: auto;
+}
+.node-type-blog table tr.row-1.row-first.row-last {
+    min-height: 0;
+}
+h2.main-bg-head {
+    font-size: 27px;
+    line-height: 1.4;
+}
+.date-box {
+    display: none;
+}
+    span.close-course {
+    top: 0px;
+    color: #ff3480;
+}
+    .course-tst .clr-whte h2 i {
+    display: none;
+}
+.course-tst .clr-whte {
+    flex-direction: row;
+    flex-wrap: unset;
+}
+.course-tst {
+    padding: 10px 0;
+}
+.course-tst .clr-whte h2 {
+    width: 70%;
+    font-size: 14px !important;
+    margin-right: 3% !important;
+}
+.course-tst .clr-whte a.btn.btn-white {
+    font-size: 11px;
+    padding: 5px 10px;
+    width: 30%;
+    white-space: normal;
+}
+    .page-category-deals section#block-system-main {
+    padding: 15px 5px;
+}
+    .view-blog-pages .view-content .views-row ,
+    table.views-view-grid > tbody > tr {
+        width: 100%;
+        margin-right: 0;
+    } 
+    .img_content h3 {
+        font-size: 14px;
+    }
+     .img_content h2 {
+        font-size: 22px;
+    }
+    .node-type-blog .field-name-field-blog-image .field-item img {
+        max-height: 350px;
+    }
+    nav#details-navigation-menu {
+    padding-left: 0;
+}
+.icon-info img {
+    height: 20px;
+}
+.hobby-details .course-general-details .icon-info p {
+    font-size: 12px !important;
+}
+.hobby-details .course-general-details .icon-info li > div {
+    font-size: 12px;
+}
+.node-type-deal .hobby-details li.male .field-name-field-suitable-for div.field-item {
+    font-size: 12px;
+}
+.hobby-details .course-general-details .icon-info li {
+    flex: 0 0 45%;
+}
+li.views > div {
+    margin-top: 3px;
+}
+.hobby-details li.male {
+    padding-right: 10px !important;
+}
+.page-blog .view-filters {
+    margin-bottom: 0;
+}
+.view-filters .views-exposed-widgets {
+    margin-bottom: 25px;
+    margin-top: 10px;
+    padding: 14px;
+}
+section#block-block-9 {
+    height: 140px;
+    margin-bottom: 0;
+}
+ } 
+
+@media (max-width: 480px)
+{
+    .banner-search .search-overlay h1 {
+    font-size: 26px !important;
+}
+.banner-search img {
+    height: 195px;
+}
+span.shad {
+    margin-left: 8px;
+    font-size: 25px;
+}
+    section#block-block-9 h1 {
+    font-size: 24px;
+    padding: 0 10px;
+}
+section#block-block-9 p {
+    padding: 0 10px 8px;
+}
+
+
+section#block-block-9 p {
+    font-size: 12px;
+    padding: 0 10px;
+}
+body .region-content #user-profile-form .profileEdit .cus-form-group.mobile .user-profile-item > p {
+    margin-top: 0px !important;
+    margin-left: 12px;
+}
+body .text-blk > p {
+    font-size: 14px !important;
+    font-weight: 400 !important;
+    margin-bottom: 0px !important;
+    font-family: 'Montserrat-Medium';
+}
+.page-deals-subcategories div#myList .col-xs-12 .image-container h3 {
+    font-size: 10px;
+}
+.page-deals-subcategories div#myList .col-xs-12 .image-container .image-caption {
+    max-width: 95%;
+}
+.file-widget.form-managed-file.clearfix.input-group input {
+    width: 100% !important;
+    margin-right: 0;
+}
+.file-widget.form-managed-file.clearfix.input-group span.input-group-btn {
+    width: 100% !important;
+    margin-top: 10px;
+}
+}
+
+@media (max-width: 420px)
+{
+
+    .quantity-section .qty-quantity {
+    width: 50%;
+}
+.quantity-section {
+    flex-wrap: wrap !important;
+}
+.bill-flex h4 {
+    font-size: 12px;
+    word-break: break-word;
+    line-height: 1.3;
+    min-width: 135px;
+}
+.info-nametitle{
+    font-size: 12px;
+    line-height: initial;
+    width: 32%;
+    text-align: left;
+}
+.bill-flex h5 {
+    font-size: 12px;
+    width: auto;
+}
+.info-other {
+    padding: 0;
+}
+.billing-section {
+    padding: 10px 15px;
+}
+   
+    input#edit-field-verify-dbs-document-und-0-upload {
+    width: 100%;
+    margin-right: 0;
+}
+.subjectResults form#front-page-search-hour button#edit-submit {
+    top: 0;
+}
+div#edit-field-verify-dbs-document-und-ajax-wrapper .input-group-btn {
+    width: 50%;
+    display: block;
+    margin: 10px auto 0;
+}
+div#edit-field-verify-dbs-document-und-ajax-wrapper .input-group {
+    margin: 17px 0 0;
+}
+    .hobby-details .details-navigation-menu ul li {
+    flex: 1;
+    display: grid;
+}
+.hobby-details .details-navigation-menu ul {
+    flex-direction: row;
+    flex-wrap: unset;
+}
+.hobby-details .details-navigation-menu ul li a {
+    font-size: 13px;
+    padding: 0 10px;
+    height: 42px;
+}
+.hobby-details .padding-container {
+    padding-left: 8px;
+    padding-right: 8px;
+}
+}
+
+@media only screen and (max-width: 400px)
+{
+    .page-cart div#edit-actions button#edit-submit {
+        margin-bottom: 10px !important;
+    }
+    li.resister-btn a {
+    font-size: 10px !important;
+}
+}
+
+@media (max-width: 375px)
+{
+    .course-tst .clr-whte h2 {
+    width: 60%;
+    font-size: 12px !important;
+}
+.st-img-sec {
+    width: auto;
+    float: none;
+    margin-right: 00px;
+}
+.mobile-only .st-img-sec span {
+   width:100%;
+   text-align:center;
+}
+.course-tst .clr-whte a.btn.btn-white {
+    width: 40%;
+}
+.container.main-vendor-page .flag-wrapper {
+    margin-top: 10px;
+}
+.main-vendor-page .user-verified-img {
+    top: -1px;
+}
+.hobby-details .table-course .table-details {
+    float: none;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.table-details>div {
+    border-bottom: 1px solid #b1b1b1;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    width: 50%;
+    display: inline-block;
+    border-right: 1px solid #b1b1b1;
+    padding: 10px 5px;
+    margin: 0;
+}
+.hobby-details .table-course {
+    padding: 0 0 10px 0;
+}
+.table-details>div:last-child {
+    border-right: none;
+    width: 100%;
+    text-align: center;
+}
+.hobby-details .table-course .table-buttons {
+    float: none;
+    width: 100%;
+    height: 100%;
+    max-width: 95%;
+    margin: 0 auto;
+}
+.hobby-details .block.table-buttons .table-button {
+    font-size: 15px;
+    height: 38px !important;
+}
+.hobby-details .table-course .timing {
+    margin-bottom: 10px;
+}
+}
+
+
+@media (min-width: 769px){
+    .page-category-deals .main-container .view-new-node-listing-views .view-content{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .page-category-deals .main-container .view-new-node-listing-views .view-content > div {
+        width: 32%;
+        margin-right: 2%;
+    }
+
+    .page-category-deals .main-container .view-new-node-listing-views .view-content > div:nth-child(3n) {
+        margin-right: 0;
+    }
+
+    .page-category-deals .main-container .view-new-node-listing-views .view-content > div > div {
+        width: 100%;
+    }
+}
